@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/user/exchange/omnibase_ws/cbf_stl_ws/build/manager_cbf_stl_pkg/manager_cbf_stl_node" "TARGETS" "manager_cbf_stl_node" "DESTINATION" "lib/manager_cbf_stl_pkg")

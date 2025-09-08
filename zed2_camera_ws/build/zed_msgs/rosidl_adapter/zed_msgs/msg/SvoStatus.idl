@@ -1,0 +1,51 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from zed_msgs/msg/SvoStatus.msg
+// generated code does not contain a copyright notice
+
+
+module zed_msgs {
+  module msg {
+    module SvoStatus_Constants {
+      @verbatim (language="comment", text=
+        "SVO playback status constants")
+      const uint8 STATUS_PLAYING = 0;
+      const uint8 STATUS_PAUSED = 1;
+      const uint8 STATUS_END = 2;
+    };
+    @verbatim (language="comment", text=
+      "Message to provide information concerning the status of the SVO playback")
+    struct SvoStatus {
+      @verbatim (language="comment", text=
+        "SVO File name")
+      string file_name;
+
+      @verbatim (language="comment", text=
+        "SVO playback status")
+      uint8 status;
+
+      @verbatim (language="comment", text=
+        "SVO frame timestamp")
+      uint64 frame_ts;
+
+      @verbatim (language="comment", text=
+        "SVO playback position")
+      uint32 frame_id;
+
+      @verbatim (language="comment", text=
+        "SVO total number of frames")
+      uint32 total_frames;
+
+      @verbatim (language="comment", text=
+        "SVO loop status")
+      boolean loop_active;
+
+      @verbatim (language="comment", text=
+        "SVO loop count")
+      uint32 loop_count;
+
+      @verbatim (language="comment", text=
+        "SVO real-time mode status")
+      boolean real_time_mode;
+    };
+  };
+};

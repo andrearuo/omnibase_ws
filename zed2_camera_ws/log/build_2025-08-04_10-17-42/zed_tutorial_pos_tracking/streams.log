@@ -1,0 +1,70 @@
+[0.016s] Invoking command in '/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_tutorial_pos_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/exchange/unimore_ws/install/check_obstacles_pkg:/home/user/exchange/ros_proxy_ws/install/ros_proxy:/opt/pal/alum:/opt/ros/humble /usr/bin/cmake /home/user/exchange/omnibase_ws/zed2_camera_ws/src/zed-ros2-examples/tutorials/zed_pose_tutorial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_pos_tracking
+[0.057s] -- The C compiler identification is GNU 11.4.0
+[0.107s] -- The CXX compiler identification is GNU 11.4.0
+[0.112s] -- Detecting C compiler ABI info
+[0.174s] -- Detecting C compiler ABI info - done
+[0.179s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.179s] -- Detecting C compile features
+[0.179s] -- Detecting C compile features - done
+[0.181s] -- Detecting CXX compiler ABI info
+[0.249s] -- Detecting CXX compiler ABI info - done
+[0.256s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.256s] -- Detecting CXX compile features
+[0.257s] -- Detecting CXX compile features - done
+[0.261s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.428s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.500s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.734s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.750s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.770s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.794s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.828s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.926s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.936s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.989s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.016s] -- Looking for pthread.h
+[1.099s] -- Looking for pthread.h - found
+[1.100s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.168s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.168s] -- Found Threads: TRUE  
+[1.487s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.571s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.572s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.573s] -- Configured cppcheck include dirs: 
+[1.573s] -- Configured cppcheck exclude dirs and/or files: 
+[1.575s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.575s] -- Configured cpplint exclude dirs and/or files: 
+[1.575s] -- Added test 'lint_cmake' to check CMake code style
+[1.577s] -- Added test 'uncrustify' to check C / C++ code style
+[1.577s] -- Configured uncrustify additional arguments: 
+[1.578s] -- Added test 'xmllint' to check XML markup files
+[1.580s] -- Added test 'clang_format' to check C / C++ code style
+[1.582s] -- Configuring done
+[1.595s] -- Generating done
+[1.600s] -- Build files have been written to: /home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_tutorial_pos_tracking
+[1.609s] Invoked command in '/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_tutorial_pos_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/exchange/unimore_ws/install/check_obstacles_pkg:/home/user/exchange/ros_proxy_ws/install/ros_proxy:/opt/pal/alum:/opt/ros/humble /usr/bin/cmake /home/user/exchange/omnibase_ws/zed2_camera_ws/src/zed-ros2-examples/tutorials/zed_pose_tutorial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_pos_tracking
+[1.611s] Invoking command in '/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_tutorial_pos_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/exchange/unimore_ws/install/check_obstacles_pkg:/home/user/exchange/ros_proxy_ws/install/ros_proxy:/opt/pal/alum:/opt/ros/humble /usr/bin/cmake --build /home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_tutorial_pos_tracking -- -j22 -l22
+[1.672s] [ 50%] [32mBuilding CXX object CMakeFiles/zed_tutorial_pos_tracking.dir/src/zed_tutorial_pos_tracking.cpp.o[0m
+[12.797s] [100%] [32m[1mLinking CXX executable zed_tutorial_pos_tracking[0m
+[12.993s] [100%] Built target zed_tutorial_pos_tracking
+[13.026s] Invoked command in '/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_tutorial_pos_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/exchange/unimore_ws/install/check_obstacles_pkg:/home/user/exchange/ros_proxy_ws/install/ros_proxy:/opt/pal/alum:/opt/ros/humble /usr/bin/cmake --build /home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_tutorial_pos_tracking -- -j22 -l22
+[13.028s] Invoking command in '/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_tutorial_pos_tracking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/exchange/unimore_ws/install/check_obstacles_pkg:/home/user/exchange/ros_proxy_ws/install/ros_proxy:/opt/pal/alum:/opt/ros/humble /usr/bin/cmake --install /home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_tutorial_pos_tracking
+[13.036s] -- Install configuration: "Release"
+[13.037s] -- Execute custom install script
+[13.037s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_pos_tracking/lib/zed_tutorial_pos_tracking/zed_tutorial_pos_tracking
+[13.045s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_pos_tracking/share/ament_index/resource_index/package_run_dependencies/zed_tutorial_pos_tracking
+[13.055s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_pos_tracking/share/ament_index/resource_index/parent_prefix_path/zed_tutorial_pos_tracking
+[13.065s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/ament_prefix_path.sh
+[13.075s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/ament_prefix_path.dsv
+[13.083s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/path.sh
+[13.093s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/environment/path.dsv
+[13.108s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.bash
+[13.117s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.sh
+[13.127s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.zsh
+[13.137s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/local_setup.dsv
+[13.145s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/package.dsv
+[13.155s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_pos_tracking/share/ament_index/resource_index/packages/zed_tutorial_pos_tracking
+[13.165s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/cmake/zed_tutorial_pos_trackingConfig.cmake
+[13.173s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/cmake/zed_tutorial_pos_trackingConfig-version.cmake
+[13.181s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_pos_tracking/share/zed_tutorial_pos_tracking/package.xml
+[13.191s] Invoked command in '/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_tutorial_pos_tracking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/exchange/unimore_ws/install/check_obstacles_pkg:/home/user/exchange/ros_proxy_ws/install/ros_proxy:/opt/pal/alum:/opt/ros/humble /usr/bin/cmake --install /home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_tutorial_pos_tracking

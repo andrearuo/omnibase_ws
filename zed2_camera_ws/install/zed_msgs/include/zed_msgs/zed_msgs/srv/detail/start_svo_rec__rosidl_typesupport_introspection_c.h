@@ -1,0 +1,1 @@
+/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_msgs/rosidl_typesupport_introspection_c/zed_msgs/srv/detail/start_svo_rec__rosidl_typesupport_introspection_c.h

@@ -1,0 +1,15 @@
+[31mCMake Error at CMakeLists.txt:22 (target_include_directories):
+  target_include_directories called with invalid arguments
+
+[0m
+[31mCMake Error at CMakeLists.txt:25 (target_compile_features):
+  target_compile_features called with invalid arguments
+
+[0m
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+  ament_target_dependencies() the passed package name 'camera' was not found
+  before
+Call Stack (most recent call first):
+  CMakeLists.txt:27 (ament_target_dependencies)
+
+[0m

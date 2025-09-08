@@ -1,0 +1,3 @@
+/home/user/exchange/omnibase_ws/zed2_camera_ws/install/rviz_plugin_zed_od/lib/librviz_plugin_zed_od.so
+/home/user/exchange/omnibase_ws/zed2_camera_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/rviz_plugin_zed_odExport.cmake
+/home/user/exchange/omnibase_ws/zed2_camera_ws/install/rviz_plugin_zed_od/share/rviz_plugin_zed_od/cmake/rviz_plugin_zed_odExport-noconfig.cmake

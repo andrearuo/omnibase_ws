@@ -1,0 +1,6 @@
+{
+  "package_name": "tts_msgs",
+  "non_idl_tuples": [
+    "/home/user/exchange/omnibase_ws/cbf_stl_ws/src/pal_tts_msgs:action/TTS.action"
+  ]
+}

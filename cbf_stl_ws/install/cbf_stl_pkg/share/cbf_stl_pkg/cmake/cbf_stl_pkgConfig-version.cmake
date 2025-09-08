@@ -1,0 +1,1 @@
+/home/user/exchange/omnibase_ws/cbf_stl_ws/build/cbf_stl_pkg/ament_cmake_core/cbf_stl_pkgConfig-version.cmake

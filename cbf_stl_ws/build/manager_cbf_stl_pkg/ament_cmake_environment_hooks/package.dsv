@@ -1,0 +1,4 @@
+source;share/manager_cbf_stl_pkg/local_setup.bash
+source;share/manager_cbf_stl_pkg/local_setup.dsv
+source;share/manager_cbf_stl_pkg/local_setup.sh
+source;share/manager_cbf_stl_pkg/local_setup.zsh

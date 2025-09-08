@@ -1,0 +1,1 @@
+/home/user/exchange/omnibase_ws/cbf_stl_ws/build/my_interfaces/rosidl_typesupport_introspection_c/my_interfaces/msg/detail/obstacles__rosidl_typesupport_introspection_c.h

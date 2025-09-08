@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from my_interfaces/msg/Input.msg
+// generated code does not contain a copyright notice
+
+
+module my_interfaces {
+  module msg {
+    struct Input {
+      string temp_operator;
+
+      sequence<double> goal;
+
+      sequence<double> goal2;
+
+      int64 ta;
+
+      int64 tb;
+
+      int64 tab;
+    };
+  };
+};

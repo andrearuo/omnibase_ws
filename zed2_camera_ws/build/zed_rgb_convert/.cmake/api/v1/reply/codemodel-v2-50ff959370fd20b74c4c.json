@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-5e3fa5936e5bedd3dabc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "zed_rgb_convert",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_zed_rgb_convert_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_zed_rgb_convert_files-Release-1ee29f960563135b6b06.json",
+					"name" : "all_zed_rgb_convert_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-2a363b85de5241b2766f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_rgb_convert::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_rgb_convert-Release-7d8f626bffcb12804b7d.json",
+					"name" : "zed_rgb_convert",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_rgb_convert_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_rgb_convert_component-Release-d82ed97b3dd4836e334b.json",
+					"name" : "zed_rgb_convert_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_rgb_convert_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_rgb_convert_uninstall-Release-95c0d8563dbccdac51a1.json",
+					"name" : "zed_rgb_convert_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_rgb_convert",
+		"source" : "/home/user/exchange/omnibase_ws/zed2_camera_ws/src/zed-ros2-examples/tutorials/zed_rgb_convert"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

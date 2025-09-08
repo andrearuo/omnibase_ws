@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-26811e6b6fd644b7f016.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "manager_cbf_stl_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "manager_cbf_stl_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-manager_cbf_stl_node-d2e7be3642a993549c44.json",
+					"name" : "manager_cbf_stl_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "manager_cbf_stl_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-manager_cbf_stl_pkg_uninstall-cbec247088d703624fea.json",
+					"name" : "manager_cbf_stl_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-36ed54e4318153baa4f2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/user/exchange/omnibase_ws/cbf_stl_ws/build/manager_cbf_stl_pkg",
+		"source" : "/home/user/exchange/omnibase_ws/cbf_stl_ws/src/manager_cbf_stl_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-03a492a60749ab21306c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "zed_topic_benchmark_interfaces__py",
+					"jsonFile" : "directory-zed_topic_benchmark_interfaces__py-407234213b96e96cec49.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_topic_benchmark_interfaces/zed_topic_benchmark_interfaces__py",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "zed_topic_benchmark_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_zed_topic_benchmark_interfaces_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_zed_topic_benchmark_interfaces_files-fd78a35ad7b933b76965.json",
+					"name" : "all_zed_topic_benchmark_interfaces_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_zed_topic_benchmark_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_zed_topic_benchmark_interfaces_egg-bfe0a0f21e959b49b6fc.json",
+					"name" : "ament_cmake_python_build_zed_topic_benchmark_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_zed_topic_benchmark_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_zed_topic_benchmark_interfaces-30628ab82fd820171707.json",
+					"name" : "ament_cmake_python_symlink_zed_topic_benchmark_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-76344a25fba000eaf1ff.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_topic_benchmark_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_topic_benchmark_interfaces-29ce3e8c28622a6a8a1b.json",
+					"name" : "zed_topic_benchmark_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_topic_benchmark_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_topic_benchmark_interfaces__cpp-a2175b55ea29b3bf044d.json",
+					"name" : "zed_topic_benchmark_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "zed_topic_benchmark_interfaces__py::@fb8f4620c3d7d8e3ac1c",
+					"jsonFile" : "target-zed_topic_benchmark_interfaces__py-d20ffbe78b9ae1a2fffb.json",
+					"name" : "zed_topic_benchmark_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_topic_benchmark_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_topic_benchmark_interfaces__rosidl_generator_c-bc71b9d6ddf37d48e5a2.json",
+					"name" : "zed_topic_benchmark_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_topic_benchmark_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_topic_benchmark_interfaces__rosidl_generator_py-fb3f4bcc22414d1e0b0d.json",
+					"name" : "zed_topic_benchmark_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_topic_benchmark_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_topic_benchmark_interfaces__rosidl_typesupport_c-2ceca7f6119555ff7c69.json",
+					"name" : "zed_topic_benchmark_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_topic_benchmark_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_topic_benchmark_interfaces__rosidl_typesupport_c__pyext-26cbc319c50b40f7b5e0.json",
+					"name" : "zed_topic_benchmark_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_topic_benchmark_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_topic_benchmark_interfaces__rosidl_typesupport_cpp-a98e8d8698199c5a3e06.json",
+					"name" : "zed_topic_benchmark_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_c-04e972918e7bdc8b9a02.json",
+					"name" : "zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_c__pyext-59795e4a65ae8fdfdc0d.json",
+					"name" : "zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_cpp-cc36a3824ed49936e6d1.json",
+					"name" : "zed_topic_benchmark_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_c-dcf716ccdd931e0da945.json",
+					"name" : "zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_c__pyext-02b8a3c85eeb71c18fc8.json",
+					"name" : "zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cpp-907acbf0987f8ac2dcbf.json",
+					"name" : "zed_topic_benchmark_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zed_topic_benchmark_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zed_topic_benchmark_interfaces_uninstall-df2adb73477e3af5ee82.json",
+					"name" : "zed_topic_benchmark_interfaces_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_topic_benchmark_interfaces",
+		"source" : "/home/user/exchange/omnibase_ws/zed2_camera_ws/src/zed-ros2-examples/tools/zed_benchmark_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

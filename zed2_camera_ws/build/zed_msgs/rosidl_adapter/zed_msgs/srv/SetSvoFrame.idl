@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from zed_msgs/srv/SetSvoFrame.srv
+// generated code does not contain a copyright notice
+
+
+module zed_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Set SVO frame ")
+    struct SetSvoFrame_Request {
+      @verbatim (language="comment", text=
+        "Frame ID")
+      int32 frame_id;
+    };
+    struct SetSvoFrame_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

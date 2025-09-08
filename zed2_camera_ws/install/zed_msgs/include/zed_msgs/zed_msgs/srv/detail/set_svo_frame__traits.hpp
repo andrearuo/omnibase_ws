@@ -1,0 +1,1 @@
+/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_msgs/rosidl_generator_cpp/zed_msgs/srv/detail/set_svo_frame__traits.hpp

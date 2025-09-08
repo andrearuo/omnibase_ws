@@ -1,0 +1,1 @@
+/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_tutorial_depth/ament_cmake_environment_hooks/local_setup.bash

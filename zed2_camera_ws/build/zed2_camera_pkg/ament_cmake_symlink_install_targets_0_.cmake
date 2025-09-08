@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed2_camera_pkg/zed2_camera_node" "TARGETS" "zed2_camera_node" "DESTINATION" "lib/zed2_camera_pkg")

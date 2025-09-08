@@ -1,0 +1,10 @@
+msg/Alldata.idl
+msg/Alldata.msg
+msg/Input.idl
+msg/Input.msg
+msg/Obstacles.idl
+msg/Obstacles.msg
+srv/InputRequest.idl
+srv/InputRequest.srv
+srv/InputRequest_Request.msg
+srv/InputRequest_Response.msg

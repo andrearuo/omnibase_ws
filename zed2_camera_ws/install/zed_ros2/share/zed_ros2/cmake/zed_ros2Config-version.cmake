@@ -1,0 +1,1 @@
+/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_ros2/ament_cmake_core/zed_ros2Config-version.cmake

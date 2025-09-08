@@ -1,0 +1,1 @@
+/home/user/exchange/omnibase_ws/cbf_stl_ws/build/tts_msgs/rosidl_typesupport_introspection_c/tts_msgs/action/detail/tts__rosidl_typesupport_introspection_c.h
