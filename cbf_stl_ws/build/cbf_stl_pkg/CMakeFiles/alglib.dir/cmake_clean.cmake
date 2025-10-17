@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/alglib.dir/src/alglib/alglibinternal.cpp.o"
+  "CMakeFiles/alglib.dir/src/alglib/alglibinternal.cpp.o.d"
+  "CMakeFiles/alglib.dir/src/alglib/alglibmisc.cpp.o"
+  "CMakeFiles/alglib.dir/src/alglib/alglibmisc.cpp.o.d"
+  "CMakeFiles/alglib.dir/src/alglib/ap.cpp.o"
+  "CMakeFiles/alglib.dir/src/alglib/ap.cpp.o.d"
+  "CMakeFiles/alglib.dir/src/alglib/dataanalysis.cpp.o"
+  "CMakeFiles/alglib.dir/src/alglib/dataanalysis.cpp.o.d"
+  "CMakeFiles/alglib.dir/src/alglib/diffequations.cpp.o"
+  "CMakeFiles/alglib.dir/src/alglib/diffequations.cpp.o.d"
+  "CMakeFiles/alglib.dir/src/alglib/fasttransforms.cpp.o"
+  "CMakeFiles/alglib.dir/src/alglib/fasttransforms.cpp.o.d"
+  "CMakeFiles/alglib.dir/src/alglib/integration.cpp.o"
+  "CMakeFiles/alglib.dir/src/alglib/integration.cpp.o.d"
+  "CMakeFiles/alglib.dir/src/alglib/interpolation.cpp.o"
+  "CMakeFiles/alglib.dir/src/alglib/interpolation.cpp.o.d"
+  "CMakeFiles/alglib.dir/src/alglib/kernels_avx2.cpp.o"
+  "CMakeFiles/alglib.dir/src/alglib/kernels_avx2.cpp.o.d"
+  "CMakeFiles/alglib.dir/src/alglib/kernels_fma.cpp.o"
+  "CMakeFiles/alglib.dir/src/alglib/kernels_fma.cpp.o.d"
+  "CMakeFiles/alglib.dir/src/alglib/kernels_sse2.cpp.o"
+  "CMakeFiles/alglib.dir/src/alglib/kernels_sse2.cpp.o.d"
+  "CMakeFiles/alglib.dir/src/alglib/linalg.cpp.o"
+  "CMakeFiles/alglib.dir/src/alglib/linalg.cpp.o.d"
+  "CMakeFiles/alglib.dir/src/alglib/optimization.cpp.o"
+  "CMakeFiles/alglib.dir/src/alglib/optimization.cpp.o.d"
+  "CMakeFiles/alglib.dir/src/alglib/solvers.cpp.o"
+  "CMakeFiles/alglib.dir/src/alglib/solvers.cpp.o.d"
+  "CMakeFiles/alglib.dir/src/alglib/specialfunctions.cpp.o"
+  "CMakeFiles/alglib.dir/src/alglib/specialfunctions.cpp.o.d"
+  "CMakeFiles/alglib.dir/src/alglib/statistics.cpp.o"
+  "CMakeFiles/alglib.dir/src/alglib/statistics.cpp.o.d"
+  "libalglib.a"
+  "libalglib.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/alglib.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,45 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_interfaces/srv/InputRequest.srv
+// generated code does not contain a copyright notice
+
+
+module my_interfaces {
+  module srv {
+    struct InputRequest_Request {
+      string temp_operator;
+
+      sequence<double> goal;
+
+      sequence<double> goal2;
+
+      int64 ta;
+
+      int64 tb;
+
+      int64 tab;
+
+      double epsilon;
+
+      boolean collision_avoidance;
+
+      boolean velocity_constraint;
+
+      boolean angular_constraint;
+
+      int64 eta;
+
+      double b0_min;
+
+      double b0_max;
+
+      double margin;
+
+      double k;
+
+      int64 esp;
+    };
+    struct InputRequest_Response {
+      boolean answer;
+    };
+  };
+};

@@ -1,0 +1,23 @@
+[0.019s] Invoking command in '/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_tutorial_depth': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/exchange/unimore_ws/install/check_obstacles_pkg:/home/user/exchange/ros_proxy_ws/install/ros_proxy:/opt/pal/alum:/opt/ros/humble /usr/bin/cmake --build /home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_tutorial_depth -- -j22 -l22
+[0.074s] [100%] Built target zed_tutorial_depth
+[0.092s] Invoked command in '/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_tutorial_depth' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/exchange/unimore_ws/install/check_obstacles_pkg:/home/user/exchange/ros_proxy_ws/install/ros_proxy:/opt/pal/alum:/opt/ros/humble /usr/bin/cmake --build /home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_tutorial_depth -- -j22 -l22
+[0.094s] Invoking command in '/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_tutorial_depth': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/exchange/unimore_ws/install/check_obstacles_pkg:/home/user/exchange/ros_proxy_ws/install/ros_proxy:/opt/pal/alum:/opt/ros/humble /usr/bin/cmake --install /home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_tutorial_depth
+[0.100s] -- Install configuration: "Release"
+[0.100s] -- Execute custom install script
+[0.100s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_depth/lib/zed_tutorial_depth/zed_tutorial_depth
+[0.100s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_depth/share/ament_index/resource_index/package_run_dependencies/zed_tutorial_depth
+[0.100s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_depth/share/ament_index/resource_index/parent_prefix_path/zed_tutorial_depth
+[0.100s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/environment/ament_prefix_path.sh
+[0.101s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/environment/ament_prefix_path.dsv
+[0.101s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/environment/path.sh
+[0.101s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/environment/path.dsv
+[0.101s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/local_setup.bash
+[0.101s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/local_setup.sh
+[0.101s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/local_setup.zsh
+[0.101s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/local_setup.dsv
+[0.101s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/package.dsv
+[0.107s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_depth/share/ament_index/resource_index/packages/zed_tutorial_depth
+[0.107s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/cmake/zed_tutorial_depthConfig.cmake
+[0.108s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/cmake/zed_tutorial_depthConfig-version.cmake
+[0.108s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_depth/share/zed_tutorial_depth/package.xml
+[0.130s] Invoked command in '/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_tutorial_depth' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/exchange/unimore_ws/install/check_obstacles_pkg:/home/user/exchange/ros_proxy_ws/install/ros_proxy:/opt/pal/alum:/opt/ros/humble /usr/bin/cmake --install /home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_tutorial_depth

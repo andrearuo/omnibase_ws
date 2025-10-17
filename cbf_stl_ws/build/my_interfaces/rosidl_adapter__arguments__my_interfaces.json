@@ -1,0 +1,9 @@
+{
+  "package_name": "my_interfaces",
+  "non_idl_tuples": [
+    "/home/user/exchange/omnibase_ws/cbf_stl_ws/src/my_interfaces:srv/InputRequest.srv",
+    "/home/user/exchange/omnibase_ws/cbf_stl_ws/src/my_interfaces:msg/Obstacles.msg",
+    "/home/user/exchange/omnibase_ws/cbf_stl_ws/src/my_interfaces:msg/Input.msg",
+    "/home/user/exchange/omnibase_ws/cbf_stl_ws/src/my_interfaces:msg/Alldata.msg"
+  ]
+}

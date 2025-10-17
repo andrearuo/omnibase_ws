@@ -1,0 +1,120 @@
+[0.017s] Invoking command in '/home/user/exchange/omnibase_ws/cbf_stl_ws/build/tts_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/exchange/unimore_ws/install/check_obstacles_pkg:/home/user/exchange/ros_proxy_ws/install/ros_proxy:/home/user/exchange/omnibase_ws/cbf_stl_ws/install/check_obstacle_pkg:/opt/pal/alum:/opt/ros/humble /usr/bin/cmake --build /home/user/exchange/omnibase_ws/cbf_stl_ws/build/tts_msgs -- -j22 -l22
+[0.074s] [  3%] Built target tts_msgs__cpp
+[0.077s] [ 12%] Built target tts_msgs__rosidl_generator_c
+[0.086s] [ 12%] Built target ament_cmake_python_symlink_tts_msgs
+[0.103s] [ 22%] Built target tts_msgs__rosidl_typesupport_fastrtps_c
+[0.106s] [ 32%] Built target tts_msgs__rosidl_typesupport_cpp
+[0.107s] [ 41%] Built target tts_msgs__rosidl_typesupport_introspection_c
+[0.109s] [ 51%] Built target tts_msgs__rosidl_typesupport_c
+[0.110s] [ 61%] Built target tts_msgs__rosidl_typesupport_fastrtps_cpp
+[0.112s] [ 70%] Built target tts_msgs__rosidl_typesupport_introspection_cpp
+[0.139s] [ 70%] Built target tts_msgs
+[0.165s] [ 74%] Built target tts_msgs__py
+[0.196s] [ 80%] Built target tts_msgs__rosidl_generator_py
+[0.229s] [ 93%] Built target tts_msgs__rosidl_typesupport_c__pyext
+[0.229s] [ 93%] Built target tts_msgs__rosidl_typesupport_introspection_c__pyext
+[0.229s] [100%] Built target tts_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.378s] running egg_info
+[0.379s] writing tts_msgs.egg-info/PKG-INFO
+[0.379s] writing dependency_links to tts_msgs.egg-info/dependency_links.txt
+[0.380s] writing top-level names to tts_msgs.egg-info/top_level.txt
+[0.383s] reading manifest file 'tts_msgs.egg-info/SOURCES.txt'
+[0.384s] writing manifest file 'tts_msgs.egg-info/SOURCES.txt'
+[0.424s] [100%] Built target ament_cmake_python_build_tts_msgs_egg
+[0.439s] Invoked command in '/home/user/exchange/omnibase_ws/cbf_stl_ws/build/tts_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/exchange/unimore_ws/install/check_obstacles_pkg:/home/user/exchange/ros_proxy_ws/install/ros_proxy:/home/user/exchange/omnibase_ws/cbf_stl_ws/install/check_obstacle_pkg:/opt/pal/alum:/opt/ros/humble /usr/bin/cmake --build /home/user/exchange/omnibase_ws/cbf_stl_ws/build/tts_msgs -- -j22 -l22
+[0.455s] Invoking command in '/home/user/exchange/omnibase_ws/cbf_stl_ws/build/tts_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/exchange/unimore_ws/install/check_obstacles_pkg:/home/user/exchange/ros_proxy_ws/install/ros_proxy:/home/user/exchange/omnibase_ws/cbf_stl_ws/install/check_obstacle_pkg:/opt/pal/alum:/opt/ros/humble /usr/bin/cmake --install /home/user/exchange/omnibase_ws/cbf_stl_ws/build/tts_msgs
+[0.466s] -- Install configuration: ""
+[0.466s] -- Execute custom install script
+[0.467s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/ament_index/resource_index/rosidl_interfaces/tts_msgs
+[0.467s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/include/tts_msgs/tts_msgs/action/detail/tts__functions.h
+[0.467s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/include/tts_msgs/tts_msgs/action/detail/tts__struct.h
+[0.467s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/include/tts_msgs/tts_msgs/action/detail/tts__type_support.h
+[0.467s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/include/tts_msgs/tts_msgs/action/tts.h
+[0.468s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/include/tts_msgs/tts_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.468s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/environment/library_path.sh
+[0.468s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/environment/library_path.dsv
+[0.468s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/include/tts_msgs/tts_msgs/action/detail/tts__rosidl_typesupport_fastrtps_c.h
+[0.469s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/include/tts_msgs/tts_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.469s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/include/tts_msgs/tts_msgs/action/detail/tts__rosidl_typesupport_introspection_c.h
+[0.469s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/include/tts_msgs/tts_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.469s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/include/tts_msgs/tts_msgs/action/detail/tts__builder.hpp
+[0.470s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/include/tts_msgs/tts_msgs/action/detail/tts__struct.hpp
+[0.470s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/include/tts_msgs/tts_msgs/action/detail/tts__traits.hpp
+[0.470s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/include/tts_msgs/tts_msgs/action/detail/tts__type_support.hpp
+[0.470s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/include/tts_msgs/tts_msgs/action/tts.hpp
+[0.470s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/include/tts_msgs/tts_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.470s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/include/tts_msgs/tts_msgs/action/detail/tts__rosidl_typesupport_fastrtps_cpp.hpp
+[0.471s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/include/tts_msgs/tts_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.471s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/include/tts_msgs/tts_msgs/action/detail/tts__rosidl_typesupport_introspection_cpp.hpp
+[0.471s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/environment/pythonpath.sh
+[0.471s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/environment/pythonpath.dsv
+[0.472s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/local/lib/python3.10/dist-packages/tts_msgs-1.1.0-py3.10.egg-info/PKG-INFO
+[0.473s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/local/lib/python3.10/dist-packages/tts_msgs-1.1.0-py3.10.egg-info/SOURCES.txt
+[0.474s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/local/lib/python3.10/dist-packages/tts_msgs-1.1.0-py3.10.egg-info/dependency_links.txt
+[0.474s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/local/lib/python3.10/dist-packages/tts_msgs-1.1.0-py3.10.egg-info/top_level.txt
+[0.475s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/local/lib/python3.10/dist-packages/tts_msgs/__init__.py
+[0.475s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/local/lib/python3.10/dist-packages/tts_msgs/_tts_msgs_s.ep.rosidl_typesupport_c.c
+[0.476s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/local/lib/python3.10/dist-packages/tts_msgs/_tts_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.476s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/local/lib/python3.10/dist-packages/tts_msgs/_tts_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.476s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/local/lib/python3.10/dist-packages/tts_msgs/action/__init__.py
+[0.476s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/local/lib/python3.10/dist-packages/tts_msgs/action/_tts.py
+[0.477s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/local/lib/python3.10/dist-packages/tts_msgs/action/_tts_s.c
+[0.477s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/local/lib/python3.10/dist-packages/tts_msgs/libtts_msgs__rosidl_generator_py.so
+[0.477s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/local/lib/python3.10/dist-packages/tts_msgs/tts_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.477s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/local/lib/python3.10/dist-packages/tts_msgs/tts_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.477s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/local/lib/python3.10/dist-packages/tts_msgs/tts_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.478s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/local/lib/python3.10/dist-packages/tts_msgs/tts_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.478s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/local/lib/python3.10/dist-packages/tts_msgs/tts_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.478s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/local/lib/python3.10/dist-packages/tts_msgs/tts_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.478s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/action/TTS.idl
+[0.479s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/action/TTS.action
+[0.479s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/ament_index/resource_index/package_run_dependencies/tts_msgs
+[0.479s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/ament_index/resource_index/parent_prefix_path/tts_msgs
+[0.479s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/environment/ament_prefix_path.sh
+[0.479s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/environment/ament_prefix_path.dsv
+[0.480s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/environment/path.sh
+[0.480s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/environment/path.dsv
+[0.480s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/local_setup.bash
+[0.480s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/local_setup.sh
+[0.480s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/local_setup.zsh
+[0.480s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/local_setup.dsv
+[0.480s] -- Symlinking: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/package.dsv
+[0.492s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/ament_index/resource_index/packages/tts_msgs
+[0.492s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/cmake/rosidl_cmake-extras.cmake
+[0.493s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.493s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.493s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.493s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.493s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.493s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.493s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/cmake/tts_msgsConfig.cmake
+[0.493s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/cmake/tts_msgsConfig-version.cmake
+[0.494s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/package.xml
+[0.494s] -- Up-to-date: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/lib/libtts_msgs__rosidl_generator_c.so
+[0.494s] -- Up-to-date: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/lib/libtts_msgs__rosidl_typesupport_fastrtps_c.so
+[0.494s] -- Up-to-date: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/lib/libtts_msgs__rosidl_typesupport_introspection_c.so
+[0.495s] -- Up-to-date: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/lib/libtts_msgs__rosidl_typesupport_c.so
+[0.495s] -- Up-to-date: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/lib/libtts_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.495s] -- Up-to-date: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/lib/libtts_msgs__rosidl_typesupport_introspection_cpp.so
+[0.495s] -- Up-to-date: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/lib/libtts_msgs__rosidl_typesupport_cpp.so
+[0.543s] Listing '/home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/local/lib/python3.10/dist-packages/tts_msgs'...
+[0.543s] Listing '/home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/local/lib/python3.10/dist-packages/tts_msgs/action'...
+[0.548s] -- Up-to-date: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/lib/libtts_msgs__rosidl_generator_py.so
+[0.548s] -- Up-to-date: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/cmake/export_tts_msgs__rosidl_generator_cExport.cmake
+[0.548s] -- Up-to-date: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/cmake/export_tts_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.548s] -- Up-to-date: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/cmake/export_tts_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.549s] -- Up-to-date: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/cmake/export_tts_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.549s] -- Up-to-date: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/cmake/tts_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.549s] -- Up-to-date: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/cmake/tts_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.549s] -- Up-to-date: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/cmake/tts_msgs__rosidl_typesupport_cExport.cmake
+[0.549s] -- Up-to-date: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/cmake/tts_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.549s] -- Up-to-date: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/cmake/export_tts_msgs__rosidl_generator_cppExport.cmake
+[0.549s] -- Up-to-date: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/cmake/export_tts_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.549s] -- Up-to-date: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/cmake/export_tts_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.549s] -- Up-to-date: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/cmake/tts_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.549s] -- Up-to-date: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/cmake/tts_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.550s] -- Up-to-date: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/cmake/tts_msgs__rosidl_typesupport_cppExport.cmake
+[0.550s] -- Up-to-date: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/cmake/tts_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.550s] -- Up-to-date: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/cmake/export_tts_msgs__rosidl_generator_pyExport.cmake
+[0.550s] -- Up-to-date: /home/user/exchange/omnibase_ws/cbf_stl_ws/install/tts_msgs/share/tts_msgs/cmake/export_tts_msgs__rosidl_generator_pyExport-noconfig.cmake
+[0.553s] Invoked command in '/home/user/exchange/omnibase_ws/cbf_stl_ws/build/tts_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/exchange/unimore_ws/install/check_obstacles_pkg:/home/user/exchange/ros_proxy_ws/install/ros_proxy:/home/user/exchange/omnibase_ws/cbf_stl_ws/install/check_obstacle_pkg:/opt/pal/alum:/opt/ros/humble /usr/bin/cmake --install /home/user/exchange/omnibase_ws/cbf_stl_ws/build/tts_msgs

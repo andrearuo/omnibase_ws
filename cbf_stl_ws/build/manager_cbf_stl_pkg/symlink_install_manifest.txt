@@ -1,0 +1,16 @@
+/home/user/exchange/omnibase_ws/cbf_stl_ws/install/manager_cbf_stl_pkg/lib/manager_cbf_stl_pkg/manager_cbf_stl_node
+/home/user/exchange/omnibase_ws/cbf_stl_ws/install/manager_cbf_stl_pkg/share/ament_index/resource_index/package_run_dependencies/manager_cbf_stl_pkg
+/home/user/exchange/omnibase_ws/cbf_stl_ws/install/manager_cbf_stl_pkg/share/ament_index/resource_index/parent_prefix_path/manager_cbf_stl_pkg
+/home/user/exchange/omnibase_ws/cbf_stl_ws/install/manager_cbf_stl_pkg/share/manager_cbf_stl_pkg/environment/ament_prefix_path.sh
+/home/user/exchange/omnibase_ws/cbf_stl_ws/install/manager_cbf_stl_pkg/share/manager_cbf_stl_pkg/environment/ament_prefix_path.dsv
+/home/user/exchange/omnibase_ws/cbf_stl_ws/install/manager_cbf_stl_pkg/share/manager_cbf_stl_pkg/environment/path.sh
+/home/user/exchange/omnibase_ws/cbf_stl_ws/install/manager_cbf_stl_pkg/share/manager_cbf_stl_pkg/environment/path.dsv
+/home/user/exchange/omnibase_ws/cbf_stl_ws/install/manager_cbf_stl_pkg/share/manager_cbf_stl_pkg/local_setup.bash
+/home/user/exchange/omnibase_ws/cbf_stl_ws/install/manager_cbf_stl_pkg/share/manager_cbf_stl_pkg/local_setup.sh
+/home/user/exchange/omnibase_ws/cbf_stl_ws/install/manager_cbf_stl_pkg/share/manager_cbf_stl_pkg/local_setup.zsh
+/home/user/exchange/omnibase_ws/cbf_stl_ws/install/manager_cbf_stl_pkg/share/manager_cbf_stl_pkg/local_setup.dsv
+/home/user/exchange/omnibase_ws/cbf_stl_ws/install/manager_cbf_stl_pkg/share/manager_cbf_stl_pkg/package.dsv
+/home/user/exchange/omnibase_ws/cbf_stl_ws/install/manager_cbf_stl_pkg/share/ament_index/resource_index/packages/manager_cbf_stl_pkg
+/home/user/exchange/omnibase_ws/cbf_stl_ws/install/manager_cbf_stl_pkg/share/manager_cbf_stl_pkg/cmake/manager_cbf_stl_pkgConfig.cmake
+/home/user/exchange/omnibase_ws/cbf_stl_ws/install/manager_cbf_stl_pkg/share/manager_cbf_stl_pkg/cmake/manager_cbf_stl_pkgConfig-version.cmake
+/home/user/exchange/omnibase_ws/cbf_stl_ws/install/manager_cbf_stl_pkg/share/manager_cbf_stl_pkg/package.xml

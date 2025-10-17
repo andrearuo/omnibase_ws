@@ -1,0 +1,16 @@
+string temp_operator
+float64[] goal
+float64[] goal2
+int64 ta
+int64 tb
+int64 tab
+float64 epsilon
+bool collision_avoidance
+bool velocity_constraint
+bool angular_constraint
+int64 eta
+float64 b0_min
+float64 b0_max
+float64 margin
+float64 k
+int64 esp

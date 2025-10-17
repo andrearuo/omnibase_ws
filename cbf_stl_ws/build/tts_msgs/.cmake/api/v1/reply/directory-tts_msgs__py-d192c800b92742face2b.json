@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "tts_msgs__py",
+		"source" : "/home/user/exchange/omnibase_ws/cbf_stl_ws/build/tts_msgs/tts_msgs__py"
+	}
+}

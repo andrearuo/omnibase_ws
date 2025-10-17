@@ -1,0 +1,23 @@
+[0.023s] Invoking command in '/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_tutorial_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/exchange/unimore_ws/install/check_obstacles_pkg:/home/user/exchange/ros_proxy_ws/install/ros_proxy:/home/user/exchange/omnibase_ws/cbf_stl_ws/install/check_obstacle_pkg:/opt/pal/alum:/opt/ros/humble /usr/bin/cmake --build /home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_tutorial_video -- -j22 -l22
+[0.076s] [100%] Built target zed_tutorial_video
+[0.098s] Invoked command in '/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_tutorial_video' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/exchange/unimore_ws/install/check_obstacles_pkg:/home/user/exchange/ros_proxy_ws/install/ros_proxy:/home/user/exchange/omnibase_ws/cbf_stl_ws/install/check_obstacle_pkg:/opt/pal/alum:/opt/ros/humble /usr/bin/cmake --build /home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_tutorial_video -- -j22 -l22
+[0.100s] Invoking command in '/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_tutorial_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/exchange/unimore_ws/install/check_obstacles_pkg:/home/user/exchange/ros_proxy_ws/install/ros_proxy:/home/user/exchange/omnibase_ws/cbf_stl_ws/install/check_obstacle_pkg:/opt/pal/alum:/opt/ros/humble /usr/bin/cmake --install /home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_tutorial_video
+[0.109s] -- Install configuration: "Release"
+[0.110s] -- Execute custom install script
+[0.111s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_video/lib/zed_tutorial_video/zed_tutorial_video
+[0.112s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_video/share/ament_index/resource_index/package_run_dependencies/zed_tutorial_video
+[0.112s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_video/share/ament_index/resource_index/parent_prefix_path/zed_tutorial_video
+[0.113s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_video/share/zed_tutorial_video/environment/ament_prefix_path.sh
+[0.113s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_video/share/zed_tutorial_video/environment/ament_prefix_path.dsv
+[0.113s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_video/share/zed_tutorial_video/environment/path.sh
+[0.113s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_video/share/zed_tutorial_video/environment/path.dsv
+[0.113s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.bash
+[0.114s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.sh
+[0.114s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.zsh
+[0.114s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_video/share/zed_tutorial_video/local_setup.dsv
+[0.114s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_video/share/zed_tutorial_video/package.dsv
+[0.122s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_video/share/ament_index/resource_index/packages/zed_tutorial_video
+[0.122s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_video/share/zed_tutorial_video/cmake/zed_tutorial_videoConfig.cmake
+[0.122s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_video/share/zed_tutorial_video/cmake/zed_tutorial_videoConfig-version.cmake
+[0.122s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_tutorial_video/share/zed_tutorial_video/package.xml
+[0.145s] Invoked command in '/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_tutorial_video' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/exchange/unimore_ws/install/check_obstacles_pkg:/home/user/exchange/ros_proxy_ws/install/ros_proxy:/home/user/exchange/omnibase_ws/cbf_stl_ws/install/check_obstacle_pkg:/opt/pal/alum:/opt/ros/humble /usr/bin/cmake --install /home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_tutorial_video

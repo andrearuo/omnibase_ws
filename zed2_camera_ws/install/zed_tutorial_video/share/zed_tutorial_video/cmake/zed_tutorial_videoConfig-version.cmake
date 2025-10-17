@@ -1,0 +1,1 @@
+/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_tutorial_video/ament_cmake_core/zed_tutorial_videoConfig-version.cmake

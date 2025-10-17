@@ -1,0 +1,900 @@
+[0.000000] (-) TimerEvent: {}
+[0.000364] (zed_msgs) JobQueued: {'identifier': 'zed_msgs', 'dependencies': OrderedDict()}
+[0.000418] (zed_msgs) JobStarted: {'identifier': 'zed_msgs'}
+[0.010282] (zed_msgs) JobProgress: {'identifier': 'zed_msgs', 'progress': 'cmake'}
+[0.010608] (zed_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/user/exchange/omnibase_ws/zed2_camera_ws/src/zed-ros2-interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs'], 'cwd': '/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_msgs', 'env': OrderedDict([('CLIENT_ID', 'avatar'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CLIENT_SECRET', '4ae2fb5f68b0b9a4cdb27ef50fdd8768ae9030eba5126b12'), ('SERMAS_TOOLKIT_URL', 'https://prod.sermas.spindoxlabs.it'), ('HOSTNAME', 'andrea-XPS-14-9440'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.1/lib64:/home/user/exchange/unimore_ws/install/tts_msgs/lib:/home/user/exchange/unimore_ws/install/my_interfaces_cbf_stl/lib:/home/user/exchange/zed2_camera_ws/install/zed_ipc/lib:/home/user/exchange/zed2_camera_ws/install/zed_topic_benchmark_component/lib:/home/user/exchange/zed2_camera_ws/install/zed_topic_benchmark_interfaces/lib:/home/user/exchange/zed2_camera_ws/install/zed_rgb_convert/lib:/home/user/exchange/zed2_camera_ws/install/zed_aruco_localization/lib:/home/user/exchange/zed2_camera_ws/install/zed_components/lib:/home/user/exchange/zed2_camera_ws/install/rviz_plugin_zed_od/lib:/home/user/exchange/zed2_camera_ws/install/zed_msgs/lib:/home/user/exchange/ros_proxy_ws/install/users_landmarks_msgs/lib:/home/user/exchange/ros_proxy_ws/install/session_event_msgs/lib:/opt/pal/alum/opt/rbdl_vendor/lib:/opt/pal/alum/lib/x86_64-linux-gnu:/opt/pal/alum/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('LOCAL_USER_ID', '1000'), ('LOCAL_GROUP_ID', '1000'), ('HOME', '/root'), ('CYCLONEDDS_URI', '/opt/pal/alum/share/cyclone_dev_cfg/config/cyclone_config.xml'), ('OLDPWD', '/home/user/exchange/omnibase_ws'), ('ROS_PYTHON_VERSION', '3'), ('PAL_ROBOT_CONNECTED', '0'), ('QML2_IMPORT_PATH', '/opt/pal/alum/lib/'), ('COLCON_PREFIX_PATH', '/home/user/exchange/zed2_camera_ws/install:/home/user/exchange/unimore_ws/install:/home/user/exchange/ros_proxy_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('APP_ID', 'ra'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/usr/local/cuda-12.1/bin:/opt/pal/alum/opt/rbdl_vendor/bin:/opt/pal/alum/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('__NV_PRIME_RENDER_OFFLOAD', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROSDISTRO_INDEX_URL', 'file:///etc/ros/pal/index-v4.yaml'), ('SSH_AUTH_SOCK', '/run/host_ssh_auth_sock'), ('ROS_DOMAIN_ID', '65'), ('AMENT_PREFIX_PATH', '/home/user/exchange/unimore_ws/install/sermas_test_pkg:/home/user/exchange/unimore_ws/install/goal_action_pkg:/home/user/exchange/unimore_ws/install/tts_msgs:/home/user/exchange/unimore_ws/install/check_obstacles_pkg:/home/user/exchange/unimore_ws/install/cbf-stl-no-noise_pkg:/home/user/exchange/unimore_ws/install/my_interfaces_cbf_stl:/home/user/exchange/unimore_ws/install/move_arms_pkg:/home/user/exchange/zed2_camera_ws/install/zed_ros2:/home/user/exchange/zed2_camera_ws/install/zed_robot_integration:/home/user/exchange/zed2_camera_ws/install/zed_ipc:/home/user/exchange/zed2_camera_ws/install/zed_multi_camera:/home/user/exchange/zed2_camera_ws/install/zed_display_rviz2:/home/user/exchange/zed2_camera_ws/install/zed_depth_to_laserscan:/home/user/exchange/zed2_camera_ws/install/zed_wrapper:/home/user/exchange/zed2_camera_ws/install/zed_tutorial_video:/home/user/exchange/zed2_camera_ws/install/zed_tutorial_pos_tracking:/home/user/exchange/zed2_camera_ws/install/zed_tutorial_depth:/home/user/exchange/zed2_camera_ws/install/zed_topic_benchmark:/home/user/exchange/zed2_camera_ws/install/zed_topic_benchmark_component:/home/user/exchange/zed2_camera_ws/install/zed_topic_benchmark_interfaces:/home/user/exchange/zed2_camera_ws/install/zed_rgb_convert:/home/user/exchange/zed2_camera_ws/install/zed_aruco_localization:/home/user/exchange/zed2_camera_ws/install/zed_components:/home/user/exchange/zed2_camera_ws/install/zed-ros2-distance_pkg:/home/user/exchange/zed2_camera_ws/install/rviz_plugin_zed_od:/home/user/exchange/zed2_camera_ws/install/zed_msgs:/home/user/exchange/ros_proxy_ws/install/users_landmarks_msgs:/home/user/exchange/ros_proxy_ws/install/session_event_msgs:/home/user/exchange/ros_proxy_ws/install/ros_proxy:/opt/pal/alum:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/user/exchange/unimore_ws/install/tts_msgs/local/lib/python3.10/dist-packages:/home/user/exchange/unimore_ws/build/check_obstacles_pkg:/home/user/exchange/unimore_ws/install/check_obstacles_pkg/lib/python3.10/site-packages:/home/user/exchange/unimore_ws/install/my_interfaces_cbf_stl/local/lib/python3.10/dist-packages:/home/user/exchange/zed2_camera_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages:/home/user/exchange/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages:/home/user/exchange/ros_proxy_ws/install/users_landmarks_msgs/local/lib/python3.10/dist-packages:/home/user/exchange/ros_proxy_ws/install/session_event_msgs/local/lib/python3.10/dist-packages:/home/user/exchange/ros_proxy_ws/build/ros_proxy:/home/user/exchange/ros_proxy_ws/install/ros_proxy/lib/python3.10/site-packages:/opt/pal/alum/lib/python3.10/site-packages:/opt/pal/alum/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('PAL_DISTRO', 'alum'), ('LOCAL_GROUP_NAME', 'andrea'), ('CMAKE_PREFIX_PATH', '/home/user/exchange/unimore_ws/install/sermas_test_pkg:/home/user/exchange/unimore_ws/install/goal_action_pkg:/home/user/exchange/unimore_ws/install/tts_msgs:/home/user/exchange/unimore_ws/install/cbf-stl-no-noise_pkg:/home/user/exchange/unimore_ws/install/my_interfaces_cbf_stl:/home/user/exchange/unimore_ws/install/move_arms_pkg:/home/user/exchange/zed2_camera_ws/install/zed_ros2:/home/user/exchange/zed2_camera_ws/install/zed_robot_integration:/home/user/exchange/zed2_camera_ws/install/zed_ipc:/home/user/exchange/zed2_camera_ws/install/zed_multi_camera:/home/user/exchange/zed2_camera_ws/install/zed_display_rviz2:/home/user/exchange/zed2_camera_ws/install/zed_depth_to_laserscan:/home/user/exchange/zed2_camera_ws/install/zed_wrapper:/home/user/exchange/zed2_camera_ws/install/zed_tutorial_video:/home/user/exchange/zed2_camera_ws/install/zed_tutorial_pos_tracking:/home/user/exchange/zed2_camera_ws/install/zed_tutorial_depth:/home/user/exchange/zed2_camera_ws/install/zed_topic_benchmark:/home/user/exchange/zed2_camera_ws/install/zed_topic_benchmark_component:/home/user/exchange/zed2_camera_ws/install/zed_topic_benchmark_interfaces:/home/user/exchange/zed2_camera_ws/install/zed_rgb_convert:/home/user/exchange/zed2_camera_ws/install/zed_aruco_localization:/home/user/exchange/zed2_camera_ws/install/zed_components:/home/user/exchange/zed2_camera_ws/install/zed-ros2-distance_pkg:/home/user/exchange/zed2_camera_ws/install/rviz_plugin_zed_od:/home/user/exchange/zed2_camera_ws/install/zed_msgs:/home/user/exchange/ros_proxy_ws/install/users_landmarks_msgs:/home/user/exchange/ros_proxy_ws/install/session_event_msgs:/opt/pal/alum/opt/rbdl_vendor:/home/user/exchange/unimore_ws/install/check_obstacles_pkg:/home/user/exchange/ros_proxy_ws/install/ros_proxy:/opt/pal/alum:/opt/ros/humble')]), 'shell': False}
+[0.066242] (zed_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099709] (-) TimerEvent: {}
+[0.109880] (zed_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.116078] (zed_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.167271] (zed_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.171286] (zed_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.171387] (zed_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.171577] (zed_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.173141] (zed_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199832] (-) TimerEvent: {}
+[0.227082] (zed_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.231530] (zed_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.231652] (zed_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.231905] (zed_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.235708] (zed_msgs) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.299960] (-) TimerEvent: {}
+[0.349411] (zed_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.391250] (zed_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.400057] (-) TimerEvent: {}
+[0.500318] (-) TimerEvent: {}
+[0.535004] (zed_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.543030] (zed_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.553586] (zed_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.566908] (zed_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.585075] (zed_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600407] (-) TimerEvent: {}
+[0.655334] (zed_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.700505] (-) TimerEvent: {}
+[0.800778] (-) TimerEvent: {}
+[0.901092] (-) TimerEvent: {}
+[0.915430] (zed_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.001172] (-) TimerEvent: {}
+[1.101390] (-) TimerEvent: {}
+[1.201631] (-) TimerEvent: {}
+[1.208420] (zed_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.301765] (-) TimerEvent: {}
+[1.320809] (zed_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.337475] (zed_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.341761] (zed_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.361437] (zed_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.361565] (zed_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.361627] (zed_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.361679] (zed_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.376647] (zed_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.401843] (-) TimerEvent: {}
+[1.432961] (zed_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.434534] (zed_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.435924] (zed_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.440325] (zed_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.483741] (zed_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.492192] (zed_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_msgs\n'}
+[1.499663] (zed_msgs) CommandEnded: {'returncode': 0}
+[1.501525] (zed_msgs) JobProgress: {'identifier': 'zed_msgs', 'progress': 'build'}
+[1.501555] (zed_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_msgs', '--', '-j22', '-l22'], 'cwd': '/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_msgs', 'env': OrderedDict([('CLIENT_ID', 'avatar'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CLIENT_SECRET', '4ae2fb5f68b0b9a4cdb27ef50fdd8768ae9030eba5126b12'), ('SERMAS_TOOLKIT_URL', 'https://prod.sermas.spindoxlabs.it'), ('HOSTNAME', 'andrea-XPS-14-9440'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.1/lib64:/home/user/exchange/unimore_ws/install/tts_msgs/lib:/home/user/exchange/unimore_ws/install/my_interfaces_cbf_stl/lib:/home/user/exchange/zed2_camera_ws/install/zed_ipc/lib:/home/user/exchange/zed2_camera_ws/install/zed_topic_benchmark_component/lib:/home/user/exchange/zed2_camera_ws/install/zed_topic_benchmark_interfaces/lib:/home/user/exchange/zed2_camera_ws/install/zed_rgb_convert/lib:/home/user/exchange/zed2_camera_ws/install/zed_aruco_localization/lib:/home/user/exchange/zed2_camera_ws/install/zed_components/lib:/home/user/exchange/zed2_camera_ws/install/rviz_plugin_zed_od/lib:/home/user/exchange/zed2_camera_ws/install/zed_msgs/lib:/home/user/exchange/ros_proxy_ws/install/users_landmarks_msgs/lib:/home/user/exchange/ros_proxy_ws/install/session_event_msgs/lib:/opt/pal/alum/opt/rbdl_vendor/lib:/opt/pal/alum/lib/x86_64-linux-gnu:/opt/pal/alum/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('LOCAL_USER_ID', '1000'), ('LOCAL_GROUP_ID', '1000'), ('HOME', '/root'), ('CYCLONEDDS_URI', '/opt/pal/alum/share/cyclone_dev_cfg/config/cyclone_config.xml'), ('OLDPWD', '/home/user/exchange/omnibase_ws'), ('ROS_PYTHON_VERSION', '3'), ('PAL_ROBOT_CONNECTED', '0'), ('QML2_IMPORT_PATH', '/opt/pal/alum/lib/'), ('COLCON_PREFIX_PATH', '/home/user/exchange/zed2_camera_ws/install:/home/user/exchange/unimore_ws/install:/home/user/exchange/ros_proxy_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('APP_ID', 'ra'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/usr/local/cuda-12.1/bin:/opt/pal/alum/opt/rbdl_vendor/bin:/opt/pal/alum/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('__NV_PRIME_RENDER_OFFLOAD', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROSDISTRO_INDEX_URL', 'file:///etc/ros/pal/index-v4.yaml'), ('SSH_AUTH_SOCK', '/run/host_ssh_auth_sock'), ('ROS_DOMAIN_ID', '65'), ('AMENT_PREFIX_PATH', '/home/user/exchange/unimore_ws/install/sermas_test_pkg:/home/user/exchange/unimore_ws/install/goal_action_pkg:/home/user/exchange/unimore_ws/install/tts_msgs:/home/user/exchange/unimore_ws/install/check_obstacles_pkg:/home/user/exchange/unimore_ws/install/cbf-stl-no-noise_pkg:/home/user/exchange/unimore_ws/install/my_interfaces_cbf_stl:/home/user/exchange/unimore_ws/install/move_arms_pkg:/home/user/exchange/zed2_camera_ws/install/zed_ros2:/home/user/exchange/zed2_camera_ws/install/zed_robot_integration:/home/user/exchange/zed2_camera_ws/install/zed_ipc:/home/user/exchange/zed2_camera_ws/install/zed_multi_camera:/home/user/exchange/zed2_camera_ws/install/zed_display_rviz2:/home/user/exchange/zed2_camera_ws/install/zed_depth_to_laserscan:/home/user/exchange/zed2_camera_ws/install/zed_wrapper:/home/user/exchange/zed2_camera_ws/install/zed_tutorial_video:/home/user/exchange/zed2_camera_ws/install/zed_tutorial_pos_tracking:/home/user/exchange/zed2_camera_ws/install/zed_tutorial_depth:/home/user/exchange/zed2_camera_ws/install/zed_topic_benchmark:/home/user/exchange/zed2_camera_ws/install/zed_topic_benchmark_component:/home/user/exchange/zed2_camera_ws/install/zed_topic_benchmark_interfaces:/home/user/exchange/zed2_camera_ws/install/zed_rgb_convert:/home/user/exchange/zed2_camera_ws/install/zed_aruco_localization:/home/user/exchange/zed2_camera_ws/install/zed_components:/home/user/exchange/zed2_camera_ws/install/zed-ros2-distance_pkg:/home/user/exchange/zed2_camera_ws/install/rviz_plugin_zed_od:/home/user/exchange/zed2_camera_ws/install/zed_msgs:/home/user/exchange/ros_proxy_ws/install/users_landmarks_msgs:/home/user/exchange/ros_proxy_ws/install/session_event_msgs:/home/user/exchange/ros_proxy_ws/install/ros_proxy:/opt/pal/alum:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/user/exchange/unimore_ws/install/tts_msgs/local/lib/python3.10/dist-packages:/home/user/exchange/unimore_ws/build/check_obstacles_pkg:/home/user/exchange/unimore_ws/install/check_obstacles_pkg/lib/python3.10/site-packages:/home/user/exchange/unimore_ws/install/my_interfaces_cbf_stl/local/lib/python3.10/dist-packages:/home/user/exchange/zed2_camera_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages:/home/user/exchange/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages:/home/user/exchange/ros_proxy_ws/install/users_landmarks_msgs/local/lib/python3.10/dist-packages:/home/user/exchange/ros_proxy_ws/install/session_event_msgs/local/lib/python3.10/dist-packages:/home/user/exchange/ros_proxy_ws/build/ros_proxy:/home/user/exchange/ros_proxy_ws/install/ros_proxy/lib/python3.10/site-packages:/opt/pal/alum/lib/python3.10/site-packages:/opt/pal/alum/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('PAL_DISTRO', 'alum'), ('LOCAL_GROUP_NAME', 'andrea'), ('CMAKE_PREFIX_PATH', '/home/user/exchange/unimore_ws/install/sermas_test_pkg:/home/user/exchange/unimore_ws/install/goal_action_pkg:/home/user/exchange/unimore_ws/install/tts_msgs:/home/user/exchange/unimore_ws/install/cbf-stl-no-noise_pkg:/home/user/exchange/unimore_ws/install/my_interfaces_cbf_stl:/home/user/exchange/unimore_ws/install/move_arms_pkg:/home/user/exchange/zed2_camera_ws/install/zed_ros2:/home/user/exchange/zed2_camera_ws/install/zed_robot_integration:/home/user/exchange/zed2_camera_ws/install/zed_ipc:/home/user/exchange/zed2_camera_ws/install/zed_multi_camera:/home/user/exchange/zed2_camera_ws/install/zed_display_rviz2:/home/user/exchange/zed2_camera_ws/install/zed_depth_to_laserscan:/home/user/exchange/zed2_camera_ws/install/zed_wrapper:/home/user/exchange/zed2_camera_ws/install/zed_tutorial_video:/home/user/exchange/zed2_camera_ws/install/zed_tutorial_pos_tracking:/home/user/exchange/zed2_camera_ws/install/zed_tutorial_depth:/home/user/exchange/zed2_camera_ws/install/zed_topic_benchmark:/home/user/exchange/zed2_camera_ws/install/zed_topic_benchmark_component:/home/user/exchange/zed2_camera_ws/install/zed_topic_benchmark_interfaces:/home/user/exchange/zed2_camera_ws/install/zed_rgb_convert:/home/user/exchange/zed2_camera_ws/install/zed_aruco_localization:/home/user/exchange/zed2_camera_ws/install/zed_components:/home/user/exchange/zed2_camera_ws/install/zed-ros2-distance_pkg:/home/user/exchange/zed2_camera_ws/install/rviz_plugin_zed_od:/home/user/exchange/zed2_camera_ws/install/zed_msgs:/home/user/exchange/ros_proxy_ws/install/users_landmarks_msgs:/home/user/exchange/ros_proxy_ws/install/session_event_msgs:/opt/pal/alum/opt/rbdl_vendor:/home/user/exchange/unimore_ws/install/check_obstacles_pkg:/home/user/exchange/ros_proxy_ws/install/ros_proxy:/opt/pal/alum:/opt/ros/humble')]), 'shell': False}
+[1.502216] (-) TimerEvent: {}
+[1.541334] (zed_msgs) StdoutLine: {'line': b'[  0%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.555053] (zed_msgs) StdoutLine: {'line': b'[  0%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.557772] (zed_msgs) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_symlink_zed_msgs\n'}
+[1.602375] (-) TimerEvent: {}
+[1.702770] (-) TimerEvent: {}
+[1.736401] (zed_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.736848] (zed_msgs) StdoutLine: {'line': b'creating zed_msgs.egg-info\n'}
+[1.736925] (zed_msgs) StdoutLine: {'line': b'writing zed_msgs.egg-info/PKG-INFO\n'}
+[1.736983] (zed_msgs) StdoutLine: {'line': b'writing dependency_links to zed_msgs.egg-info/dependency_links.txt\n'}
+[1.737013] (zed_msgs) StdoutLine: {'line': b'writing top-level names to zed_msgs.egg-info/top_level.txt\n'}
+[1.737054] (zed_msgs) StdoutLine: {'line': b"writing manifest file 'zed_msgs.egg-info/SOURCES.txt'\n"}
+[1.738572] (zed_msgs) StdoutLine: {'line': b"reading manifest file 'zed_msgs.egg-info/SOURCES.txt'\n"}
+[1.738724] (zed_msgs) StdoutLine: {'line': b"writing manifest file 'zed_msgs.egg-info/SOURCES.txt'\n"}
+[1.758278] (zed_msgs) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_build_zed_msgs_egg\n'}
+[1.802871] (-) TimerEvent: {}
+[1.903156] (-) TimerEvent: {}
+[2.003565] (-) TimerEvent: {}
+[2.103925] (-) TimerEvent: {}
+[2.204207] (-) TimerEvent: {}
+[2.304631] (-) TimerEvent: {}
+[2.405099] (-) TimerEvent: {}
+[2.505530] (-) TimerEvent: {}
+[2.605974] (-) TimerEvent: {}
+[2.706430] (-) TimerEvent: {}
+[2.806792] (-) TimerEvent: {}
+[2.907086] (-) TimerEvent: {}
+[3.007299] (-) TimerEvent: {}
+[3.035366] (zed_msgs) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/object__functions.c.o\x1b[0m\n'}
+[3.036077] (zed_msgs) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/keypoint3_d__functions.c.o\x1b[0m\n'}
+[3.036287] (zed_msgs) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/bounding_box2_df__functions.c.o\x1b[0m\n'}
+[3.037586] (zed_msgs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/skeleton2_d__functions.c.o\x1b[0m\n'}
+[3.037754] (zed_msgs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/objects_stamped__functions.c.o\x1b[0m\n'}
+[3.037840] (zed_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/keypoint2_di__functions.c.o\x1b[0m\n'}
+[3.037919] (zed_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/skeleton3_d__functions.c.o\x1b[0m\n'}
+[3.038310] (zed_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/keypoint2_df__functions.c.o\x1b[0m\n'}
+[3.039011] (zed_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/bounding_box2_di__functions.c.o\x1b[0m\n'}
+[3.039876] (zed_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/bounding_box3_d__functions.c.o\x1b[0m\n'}
+[3.040170] (zed_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/plane_stamped__functions.c.o\x1b[0m\n'}
+[3.040488] (zed_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/pos_track_status__functions.c.o\x1b[0m\n'}
+[3.040579] (zed_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/mag_heading_status__functions.c.o\x1b[0m\n'}
+[3.041047] (zed_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/depth_info_stamped__functions.c.o\x1b[0m\n'}
+[3.042129] (zed_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/gnss_fusion_status__functions.c.o\x1b[0m\n'}
+[3.043356] (zed_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/srv/detail/set_pose__functions.c.o\x1b[0m\n'}
+[3.044471] (zed_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/health_status_stamped__functions.c.o\x1b[0m\n'}
+[3.044961] (zed_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/svo_status__functions.c.o\x1b[0m\n'}
+[3.047394] (zed_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/srv/detail/set_roi__functions.c.o\x1b[0m\n'}
+[3.049781] (zed_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/heartbeat__functions.c.o\x1b[0m\n'}
+[3.050161] (zed_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/srv/detail/start_svo_rec__functions.c.o\x1b[0m\n'}
+[3.089122] (zed_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/srv/detail/set_svo_frame__functions.c.o\x1b[0m\n'}
+[3.107413] (-) TimerEvent: {}
+[3.136035] (zed_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking C shared library libzed_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.174288] (zed_msgs) StdoutLine: {'line': b'[ 12%] Built target zed_msgs__cpp\n'}
+[3.181019] (zed_msgs) StdoutLine: {'line': b'[ 12%] Built target zed_msgs__rosidl_generator_c\n'}
+[3.182614] (zed_msgs) StdoutLine: {'line': b'[ 13%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.182983] (zed_msgs) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.184630] (zed_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.189928] (zed_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.192164] (zed_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.193024] (zed_msgs) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.207525] (-) TimerEvent: {}
+[3.307896] (-) TimerEvent: {}
+[3.408324] (-) TimerEvent: {}
+[3.508724] (-) TimerEvent: {}
+[3.609229] (-) TimerEvent: {}
+[3.709758] (-) TimerEvent: {}
+[3.810209] (-) TimerEvent: {}
+[3.910560] (-) TimerEvent: {}
+[4.010952] (-) TimerEvent: {}
+[4.111454] (-) TimerEvent: {}
+[4.211938] (-) TimerEvent: {}
+[4.312357] (-) TimerEvent: {}
+[4.413956] (zed_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/objects_stamped__type_support.cpp.o\x1b[0m\n'}
+[4.414240] (-) TimerEvent: {}
+[4.414378] (zed_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/object__type_support.cpp.o\x1b[0m\n'}
+[4.415997] (zed_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/keypoint2_df__type_support.cpp.o\x1b[0m\n'}
+[4.416176] (zed_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/keypoint2_di__type_support.cpp.o\x1b[0m\n'}
+[4.416238] (zed_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/keypoint3_d__type_support.cpp.o\x1b[0m\n'}
+[4.417047] (zed_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/bounding_box2_di__type_support.cpp.o\x1b[0m\n'}
+[4.417166] (zed_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/skeleton2_d__type_support.cpp.o\x1b[0m\n'}
+[4.417249] (zed_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/bounding_box3_d__type_support.cpp.o\x1b[0m\n'}
+[4.417998] (zed_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/heartbeat__type_support.cpp.o\x1b[0m\n'}
+[4.418307] (zed_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/bounding_box2_df__type_support.cpp.o\x1b[0m\n'}
+[4.418796] (zed_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/svo_status__type_support.cpp.o\x1b[0m\n'}
+[4.419499] (zed_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/pos_track_status__type_support.cpp.o\x1b[0m\n'}
+[4.419628] (zed_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/depth_info_stamped__type_support.cpp.o\x1b[0m\n'}
+[4.421982] (zed_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/skeleton3_d__type_support.cpp.o\x1b[0m\n'}
+[4.422218] (zed_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/plane_stamped__type_support.cpp.o\x1b[0m\n'}
+[4.422328] (zed_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/mag_heading_status__type_support.cpp.o\x1b[0m\n'}
+[4.424308] (zed_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/gnss_fusion_status__type_support.cpp.o\x1b[0m\n'}
+[4.441778] (zed_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/object__type_support.c.o\x1b[0m\n'}
+[4.504250] (zed_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/objects_stamped__type_support.c.o\x1b[0m\n'}
+[4.514373] (-) TimerEvent: {}
+[4.589954] (zed_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/keypoint2_di__type_support.c.o\x1b[0m\n'}
+[4.614511] (-) TimerEvent: {}
+[4.674960] (zed_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/keypoint2_df__type_support.c.o\x1b[0m\n'}
+[4.714644] (-) TimerEvent: {}
+[4.744953] (zed_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/keypoint3_d__type_support.c.o\x1b[0m\n'}
+[4.806082] (zed_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/bounding_box2_di__type_support.c.o\x1b[0m\n'}
+[4.809523] (zed_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/health_status_stamped__type_support.cpp.o\x1b[0m\n'}
+[4.814763] (-) TimerEvent: {}
+[4.816697] (zed_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/bounding_box2_df__type_support.c.o\x1b[0m\n'}
+[4.818768] (zed_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/bounding_box3_d__type_support.c.o\x1b[0m\n'}
+[4.837124] (zed_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/srv/detail/dds_fastrtps/set_pose__type_support.cpp.o\x1b[0m\n'}
+[4.857097] (zed_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/skeleton3_d__type_support.c.o\x1b[0m\n'}
+[4.858900] (zed_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/skeleton2_d__type_support.c.o\x1b[0m\n'}
+[4.876022] (zed_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/srv/detail/dds_fastrtps/start_svo_rec__type_support.cpp.o\x1b[0m\n'}
+[4.876297] (zed_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/srv/detail/dds_fastrtps/set_roi__type_support.cpp.o\x1b[0m\n'}
+[4.878756] (zed_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/depth_info_stamped__type_support.c.o\x1b[0m\n'}
+[4.899814] (zed_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/plane_stamped__type_support.c.o\x1b[0m\n'}
+[4.907819] (zed_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/srv/detail/dds_fastrtps/set_svo_frame__type_support.cpp.o\x1b[0m\n'}
+[4.908576] (zed_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/pos_track_status__type_support.c.o\x1b[0m\n'}
+[4.917216] (-) TimerEvent: {}
+[4.926993] (zed_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/gnss_fusion_status__type_support.c.o\x1b[0m\n'}
+[4.935821] (zed_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/heartbeat__type_support.c.o\x1b[0m\n'}
+[4.974983] (zed_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/svo_status__type_support.c.o\x1b[0m\n'}
+[4.975299] (zed_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/mag_heading_status__type_support.c.o\x1b[0m\n'}
+[4.981359] (zed_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/srv/detail/set_pose__type_support.c.o\x1b[0m\n'}
+[4.981704] (zed_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/health_status_stamped__type_support.c.o\x1b[0m\n'}
+[4.992963] (zed_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/srv/detail/start_svo_rec__type_support.c.o\x1b[0m\n'}
+[5.003283] (zed_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/object__type_support.cpp.o\x1b[0m\n'}
+[5.007191] (zed_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/objects_stamped__type_support.cpp.o\x1b[0m\n'}
+[5.008178] (zed_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/srv/detail/set_roi__type_support.c.o\x1b[0m\n'}
+[5.008941] (zed_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/object__type_support.cpp.o\x1b[0m\n'}
+[5.017958] (zed_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/objects_stamped__type_support.cpp.o\x1b[0m\n'}
+[5.018258] (-) TimerEvent: {}
+[5.023402] (zed_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/srv/detail/set_svo_frame__type_support.c.o\x1b[0m\n'}
+[5.028314] (zed_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/keypoint2_di__type_support.cpp.o\x1b[0m\n'}
+[5.029398] (zed_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/keypoint2_di__type_support.cpp.o\x1b[0m\n'}
+[5.034021] (zed_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/keypoint2_df__type_support.cpp.o\x1b[0m\n'}
+[5.036236] (zed_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/keypoint2_df__type_support.cpp.o\x1b[0m\n'}
+[5.039924] (zed_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/keypoint3_d__type_support.cpp.o\x1b[0m\n'}
+[5.042071] (zed_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/keypoint3_d__type_support.cpp.o\x1b[0m\n'}
+[5.043824] (zed_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/bounding_box2_di__type_support.cpp.o\x1b[0m\n'}
+[5.047511] (zed_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/bounding_box2_di__type_support.cpp.o\x1b[0m\n'}
+[5.052547] (zed_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/bounding_box3_d__type_support.cpp.o\x1b[0m\n'}
+[5.052829] (zed_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/bounding_box2_df__type_support.cpp.o\x1b[0m\n'}
+[5.061291] (zed_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/skeleton2_d__type_support.cpp.o\x1b[0m\n'}
+[5.065934] (zed_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/bounding_box2_df__type_support.cpp.o\x1b[0m\n'}
+[5.071290] (zed_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/bounding_box3_d__type_support.cpp.o\x1b[0m\n'}
+[5.074938] (zed_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking C shared library libzed_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.081520] (zed_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/skeleton3_d__type_support.cpp.o\x1b[0m\n'}
+[5.087319] (zed_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/skeleton2_d__type_support.cpp.o\x1b[0m\n'}
+[5.090463] (zed_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/depth_info_stamped__type_support.cpp.o\x1b[0m\n'}
+[5.102210] (zed_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/skeleton3_d__type_support.cpp.o\x1b[0m\n'}
+[5.106932] (zed_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/plane_stamped__type_support.cpp.o\x1b[0m\n'}
+[5.114933] (zed_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/depth_info_stamped__type_support.cpp.o\x1b[0m\n'}
+[5.118389] (-) TimerEvent: {}
+[5.123014] (zed_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/pos_track_status__type_support.cpp.o\x1b[0m\n'}
+[5.134937] (zed_msgs) StdoutLine: {'line': b'[ 51%] Built target zed_msgs__rosidl_typesupport_introspection_c\n'}
+[5.146796] (zed_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/gnss_fusion_status__type_support.cpp.o\x1b[0m\n'}
+[5.157703] (zed_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/object__type_support.cpp.o\x1b[0m\n'}
+[5.164969] (zed_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/heartbeat__type_support.cpp.o\x1b[0m\n'}
+[5.187236] (zed_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/mag_heading_status__type_support.cpp.o\x1b[0m\n'}
+[5.190398] (zed_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/plane_stamped__type_support.cpp.o\x1b[0m\n'}
+[5.213035] (zed_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/svo_status__type_support.cpp.o\x1b[0m\n'}
+[5.214714] (zed_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/health_status_stamped__type_support.cpp.o\x1b[0m\n'}
+[5.218523] (-) TimerEvent: {}
+[5.247285] (zed_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/srv/set_pose__type_support.cpp.o\x1b[0m\n'}
+[5.266035] (zed_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/object__type_support_c.cpp.o\x1b[0m\n'}
+[5.272241] (zed_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/objects_stamped__type_support.cpp.o\x1b[0m\n'}
+[5.274705] (zed_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/srv/start_svo_rec__type_support.cpp.o\x1b[0m\n'}
+[5.277585] (zed_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/keypoint2_di__type_support.cpp.o\x1b[0m\n'}
+[5.313678] (zed_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/keypoint2_df__type_support.cpp.o\x1b[0m\n'}
+[5.318691] (-) TimerEvent: {}
+[5.337989] (zed_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/objects_stamped__type_support_c.cpp.o\x1b[0m\n'}
+[5.342202] (zed_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/srv/set_roi__type_support.cpp.o\x1b[0m\n'}
+[5.355546] (zed_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/srv/set_svo_frame__type_support.cpp.o\x1b[0m\n'}
+[5.367660] (zed_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/pos_track_status__type_support.cpp.o\x1b[0m\n'}
+[5.383595] (zed_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libzed_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.389388] (zed_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/gnss_fusion_status__type_support.cpp.o\x1b[0m\n'}
+[5.400568] (zed_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libzed_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.408951] (zed_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/keypoint3_d__type_support.cpp.o\x1b[0m\n'}
+[5.418831] (-) TimerEvent: {}
+[5.429562] (zed_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/keypoint2_di__type_support_c.cpp.o\x1b[0m\n'}
+[5.446964] (zed_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/bounding_box2_di__type_support.cpp.o\x1b[0m\n'}
+[5.459524] (zed_msgs) StdoutLine: {'line': b'[ 62%] Built target zed_msgs__rosidl_typesupport_c\n'}
+[5.471833] (zed_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/heartbeat__type_support.cpp.o\x1b[0m\n'}
+[5.475371] (zed_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/keypoint2_df__type_support_c.cpp.o\x1b[0m\n'}
+[5.511210] (zed_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/bounding_box2_df__type_support.cpp.o\x1b[0m\n'}
+[5.511605] (zed_msgs) StdoutLine: {'line': b'[ 63%] Built target zed_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[5.518964] (-) TimerEvent: {}
+[5.523664] (zed_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/mag_heading_status__type_support.cpp.o\x1b[0m\n'}
+[5.533625] (zed_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/bounding_box3_d__type_support.cpp.o\x1b[0m\n'}
+[5.556019] (zed_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/keypoint3_d__type_support_c.cpp.o\x1b[0m\n'}
+[5.587511] (zed_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/skeleton2_d__type_support.cpp.o\x1b[0m\n'}
+[5.604010] (zed_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/bounding_box2_df__type_support_c.cpp.o\x1b[0m\n'}
+[5.604294] (zed_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/bounding_box2_di__type_support_c.cpp.o\x1b[0m\n'}
+[5.619089] (-) TimerEvent: {}
+[5.653468] (zed_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/skeleton3_d__type_support.cpp.o\x1b[0m\n'}
+[5.669437] (zed_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/svo_status__type_support.cpp.o\x1b[0m\n'}
+[5.698141] (zed_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/bounding_box3_d__type_support_c.cpp.o\x1b[0m\n'}
+[5.719223] (-) TimerEvent: {}
+[5.748205] (zed_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/depth_info_stamped__type_support.cpp.o\x1b[0m\n'}
+[5.757996] (zed_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/skeleton2_d__type_support_c.cpp.o\x1b[0m\n'}
+[5.758632] (zed_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/health_status_stamped__type_support.cpp.o\x1b[0m\n'}
+[5.768137] (zed_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/plane_stamped__type_support.cpp.o\x1b[0m\n'}
+[5.772370] (zed_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/pos_track_status__type_support.cpp.o\x1b[0m\n'}
+[5.783434] (zed_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/skeleton3_d__type_support_c.cpp.o\x1b[0m\n'}
+[5.802951] (zed_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/gnss_fusion_status__type_support.cpp.o\x1b[0m\n'}
+[5.807602] (zed_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/srv/detail/set_pose__type_support.cpp.o\x1b[0m\n'}
+[5.819355] (-) TimerEvent: {}
+[5.849956] (zed_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/srv/detail/start_svo_rec__type_support.cpp.o\x1b[0m\n'}
+[5.856007] (zed_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/depth_info_stamped__type_support_c.cpp.o\x1b[0m\n'}
+[5.882964] (zed_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/plane_stamped__type_support_c.cpp.o\x1b[0m\n'}
+[5.915952] (zed_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/pos_track_status__type_support_c.cpp.o\x1b[0m\n'}
+[5.919471] (-) TimerEvent: {}
+[5.930346] (zed_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/srv/detail/set_roi__type_support.cpp.o\x1b[0m\n'}
+[5.948936] (zed_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/gnss_fusion_status__type_support_c.cpp.o\x1b[0m\n'}
+[5.976117] (zed_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/heartbeat__type_support.cpp.o\x1b[0m\n'}
+[5.985038] (zed_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/mag_heading_status__type_support.cpp.o\x1b[0m\n'}
+[5.996949] (zed_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/heartbeat__type_support_c.cpp.o\x1b[0m\n'}
+[6.008954] (zed_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/mag_heading_status__type_support_c.cpp.o\x1b[0m\n'}
+[6.019604] (-) TimerEvent: {}
+[6.020189] (zed_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/srv/detail/set_svo_frame__type_support.cpp.o\x1b[0m\n'}
+[6.052431] (zed_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/svo_status__type_support.cpp.o\x1b[0m\n'}
+[6.078019] (zed_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/srv/set_pose__type_support.cpp.o\x1b[0m\n'}
+[6.078312] (zed_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/health_status_stamped__type_support.cpp.o\x1b[0m\n'}
+[6.111953] (zed_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/svo_status__type_support_c.cpp.o\x1b[0m\n'}
+[6.119738] (-) TimerEvent: {}
+[6.130946] (zed_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/health_status_stamped__type_support_c.cpp.o\x1b[0m\n'}
+[6.133563] (zed_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/srv/detail/set_pose__type_support_c.cpp.o\x1b[0m\n'}
+[6.156449] (zed_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/srv/start_svo_rec__type_support.cpp.o\x1b[0m\n'}
+[6.206602] (zed_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/srv/set_roi__type_support.cpp.o\x1b[0m\n'}
+[6.207014] (zed_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/srv/detail/start_svo_rec__type_support_c.cpp.o\x1b[0m\n'}
+[6.219902] (-) TimerEvent: {}
+[6.255944] (zed_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/srv/detail/set_roi__type_support_c.cpp.o\x1b[0m\n'}
+[6.276011] (zed_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/srv/detail/set_svo_frame__type_support_c.cpp.o\x1b[0m\n'}
+[6.288598] (zed_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/srv/set_svo_frame__type_support.cpp.o\x1b[0m\n'}
+[6.320011] (-) TimerEvent: {}
+[6.420379] (-) TimerEvent: {}
+[6.489745] (zed_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library libzed_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.490177] (zed_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX shared library libzed_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.520509] (-) TimerEvent: {}
+[6.534433] (zed_msgs) StdoutLine: {'line': b'[ 85%] Built target zed_msgs__rosidl_typesupport_cpp\n'}
+[6.565514] (zed_msgs) StdoutLine: {'line': b'[ 85%] Built target zed_msgs__rosidl_typesupport_introspection_cpp\n'}
+[6.620619] (-) TimerEvent: {}
+[6.656005] (zed_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX shared library libzed_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.714362] (zed_msgs) StdoutLine: {'line': b'[ 85%] Built target zed_msgs__rosidl_typesupport_fastrtps_c\n'}
+[6.720704] (-) TimerEvent: {}
+[6.731181] (zed_msgs) StdoutLine: {'line': b'[ 85%] Built target zed_msgs\n'}
+[6.745575] (zed_msgs) StdoutLine: {'line': b'[ 86%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.820823] (-) TimerEvent: {}
+[6.921147] (-) TimerEvent: {}
+[7.021486] (-) TimerEvent: {}
+[7.121773] (-) TimerEvent: {}
+[7.222197] (-) TimerEvent: {}
+[7.322405] (-) TimerEvent: {}
+[7.422678] (-) TimerEvent: {}
+[7.522931] (-) TimerEvent: {}
+[7.623191] (-) TimerEvent: {}
+[7.723458] (-) TimerEvent: {}
+[7.823700] (-) TimerEvent: {}
+[7.924012] (-) TimerEvent: {}
+[8.024319] (-) TimerEvent: {}
+[8.124657] (-) TimerEvent: {}
+[8.224879] (-) TimerEvent: {}
+[8.325069] (-) TimerEvent: {}
+[8.425322] (-) TimerEvent: {}
+[8.525574] (-) TimerEvent: {}
+[8.626002] (-) TimerEvent: {}
+[8.726316] (-) TimerEvent: {}
+[8.826604] (-) TimerEvent: {}
+[8.926889] (-) TimerEvent: {}
+[9.027276] (-) TimerEvent: {}
+[9.127606] (-) TimerEvent: {}
+[9.227959] (-) TimerEvent: {}
+[9.328232] (-) TimerEvent: {}
+[9.428927] (-) TimerEvent: {}
+[9.447554] (zed_msgs) StdoutLine: {'line': b'[ 86%] Built target zed_msgs__py\n'}
+[9.465674] (zed_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_bounding_box2_df_s.c.o\x1b[0m\n'}
+[9.466155] (zed_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_bounding_box2_di_s.c.o\x1b[0m\n'}
+[9.466828] (zed_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_bounding_box3_d_s.c.o\x1b[0m\n'}
+[9.466909] (zed_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_keypoint3_d_s.c.o\x1b[0m\n'}
+[9.466953] (zed_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_keypoint2_df_s.c.o\x1b[0m\n'}
+[9.467012] (zed_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_object_s.c.o\x1b[0m\n'}
+[9.467782] (zed_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_skeleton3_d_s.c.o\x1b[0m\n'}
+[9.467953] (zed_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_objects_stamped_s.c.o\x1b[0m\n'}
+[9.468035] (zed_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_keypoint2_di_s.c.o\x1b[0m\n'}
+[9.468193] (zed_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_skeleton2_d_s.c.o\x1b[0m\n'}
+[9.468839] (zed_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_plane_stamped_s.c.o\x1b[0m\n'}
+[9.469774] (zed_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_pos_track_status_s.c.o\x1b[0m\n'}
+[9.470073] (zed_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/srv/_start_svo_rec_s.c.o\x1b[0m\n'}
+[9.470206] (zed_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_svo_status_s.c.o\x1b[0m\n'}
+[9.470318] (zed_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_depth_info_stamped_s.c.o\x1b[0m\n'}
+[9.472310] (zed_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_gnss_fusion_status_s.c.o\x1b[0m\n'}
+[9.472420] (zed_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/srv/_set_pose_s.c.o\x1b[0m\n'}
+[9.472484] (zed_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_mag_heading_status_s.c.o\x1b[0m\n'}
+[9.472537] (zed_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_health_status_stamped_s.c.o\x1b[0m\n'}
+[9.476458] (zed_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/srv/_set_roi_s.c.o\x1b[0m\n'}
+[9.479066] (zed_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_heartbeat_s.c.o\x1b[0m\n'}
+[9.484079] (zed_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/srv/_set_svo_frame_s.c.o\x1b[0m\n'}
+[9.529068] (-) TimerEvent: {}
+[9.615625] (zed_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/zed_msgs/libzed_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[9.629314] (-) TimerEvent: {}
+[9.654602] (zed_msgs) StdoutLine: {'line': b'[ 97%] Built target zed_msgs__rosidl_generator_py\n'}
+[9.676054] (zed_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/zed_msgs/_zed_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[9.676977] (zed_msgs) StdoutLine: {'line': b'[100%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/zed_msgs/_zed_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[9.677050] (zed_msgs) StdoutLine: {'line': b'[100%] \x1b[32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/zed_msgs/_zed_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.729430] (-) TimerEvent: {}
+[9.780462] (zed_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/zed_msgs/zed_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.788561] (zed_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/zed_msgs/zed_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.798990] (zed_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/zed_msgs/zed_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.816267] (zed_msgs) StdoutLine: {'line': b'[100%] Built target zed_msgs__rosidl_typesupport_c__pyext\n'}
+[9.820045] (zed_msgs) StdoutLine: {'line': b'[100%] Built target zed_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.829504] (-) TimerEvent: {}
+[9.833000] (zed_msgs) StdoutLine: {'line': b'[100%] Built target zed_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[9.841729] (zed_msgs) CommandEnded: {'returncode': 0}
+[9.842278] (zed_msgs) JobProgress: {'identifier': 'zed_msgs', 'progress': 'install'}
+[9.849618] (zed_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_msgs'], 'cwd': '/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_msgs', 'env': OrderedDict([('CLIENT_ID', 'avatar'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CLIENT_SECRET', '4ae2fb5f68b0b9a4cdb27ef50fdd8768ae9030eba5126b12'), ('SERMAS_TOOLKIT_URL', 'https://prod.sermas.spindoxlabs.it'), ('HOSTNAME', 'andrea-XPS-14-9440'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.1/lib64:/home/user/exchange/unimore_ws/install/tts_msgs/lib:/home/user/exchange/unimore_ws/install/my_interfaces_cbf_stl/lib:/home/user/exchange/zed2_camera_ws/install/zed_ipc/lib:/home/user/exchange/zed2_camera_ws/install/zed_topic_benchmark_component/lib:/home/user/exchange/zed2_camera_ws/install/zed_topic_benchmark_interfaces/lib:/home/user/exchange/zed2_camera_ws/install/zed_rgb_convert/lib:/home/user/exchange/zed2_camera_ws/install/zed_aruco_localization/lib:/home/user/exchange/zed2_camera_ws/install/zed_components/lib:/home/user/exchange/zed2_camera_ws/install/rviz_plugin_zed_od/lib:/home/user/exchange/zed2_camera_ws/install/zed_msgs/lib:/home/user/exchange/ros_proxy_ws/install/users_landmarks_msgs/lib:/home/user/exchange/ros_proxy_ws/install/session_event_msgs/lib:/opt/pal/alum/opt/rbdl_vendor/lib:/opt/pal/alum/lib/x86_64-linux-gnu:/opt/pal/alum/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('LOCAL_USER_ID', '1000'), ('LOCAL_GROUP_ID', '1000'), ('HOME', '/root'), ('CYCLONEDDS_URI', '/opt/pal/alum/share/cyclone_dev_cfg/config/cyclone_config.xml'), ('OLDPWD', '/home/user/exchange/omnibase_ws'), ('ROS_PYTHON_VERSION', '3'), ('PAL_ROBOT_CONNECTED', '0'), ('QML2_IMPORT_PATH', '/opt/pal/alum/lib/'), ('COLCON_PREFIX_PATH', '/home/user/exchange/zed2_camera_ws/install:/home/user/exchange/unimore_ws/install:/home/user/exchange/ros_proxy_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('APP_ID', 'ra'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/usr/local/cuda-12.1/bin:/opt/pal/alum/opt/rbdl_vendor/bin:/opt/pal/alum/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('__NV_PRIME_RENDER_OFFLOAD', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROSDISTRO_INDEX_URL', 'file:///etc/ros/pal/index-v4.yaml'), ('SSH_AUTH_SOCK', '/run/host_ssh_auth_sock'), ('ROS_DOMAIN_ID', '65'), ('AMENT_PREFIX_PATH', '/home/user/exchange/unimore_ws/install/sermas_test_pkg:/home/user/exchange/unimore_ws/install/goal_action_pkg:/home/user/exchange/unimore_ws/install/tts_msgs:/home/user/exchange/unimore_ws/install/check_obstacles_pkg:/home/user/exchange/unimore_ws/install/cbf-stl-no-noise_pkg:/home/user/exchange/unimore_ws/install/my_interfaces_cbf_stl:/home/user/exchange/unimore_ws/install/move_arms_pkg:/home/user/exchange/zed2_camera_ws/install/zed_ros2:/home/user/exchange/zed2_camera_ws/install/zed_robot_integration:/home/user/exchange/zed2_camera_ws/install/zed_ipc:/home/user/exchange/zed2_camera_ws/install/zed_multi_camera:/home/user/exchange/zed2_camera_ws/install/zed_display_rviz2:/home/user/exchange/zed2_camera_ws/install/zed_depth_to_laserscan:/home/user/exchange/zed2_camera_ws/install/zed_wrapper:/home/user/exchange/zed2_camera_ws/install/zed_tutorial_video:/home/user/exchange/zed2_camera_ws/install/zed_tutorial_pos_tracking:/home/user/exchange/zed2_camera_ws/install/zed_tutorial_depth:/home/user/exchange/zed2_camera_ws/install/zed_topic_benchmark:/home/user/exchange/zed2_camera_ws/install/zed_topic_benchmark_component:/home/user/exchange/zed2_camera_ws/install/zed_topic_benchmark_interfaces:/home/user/exchange/zed2_camera_ws/install/zed_rgb_convert:/home/user/exchange/zed2_camera_ws/install/zed_aruco_localization:/home/user/exchange/zed2_camera_ws/install/zed_components:/home/user/exchange/zed2_camera_ws/install/zed-ros2-distance_pkg:/home/user/exchange/zed2_camera_ws/install/rviz_plugin_zed_od:/home/user/exchange/zed2_camera_ws/install/zed_msgs:/home/user/exchange/ros_proxy_ws/install/users_landmarks_msgs:/home/user/exchange/ros_proxy_ws/install/session_event_msgs:/home/user/exchange/ros_proxy_ws/install/ros_proxy:/opt/pal/alum:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/user/exchange/unimore_ws/install/tts_msgs/local/lib/python3.10/dist-packages:/home/user/exchange/unimore_ws/build/check_obstacles_pkg:/home/user/exchange/unimore_ws/install/check_obstacles_pkg/lib/python3.10/site-packages:/home/user/exchange/unimore_ws/install/my_interfaces_cbf_stl/local/lib/python3.10/dist-packages:/home/user/exchange/zed2_camera_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages:/home/user/exchange/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages:/home/user/exchange/ros_proxy_ws/install/users_landmarks_msgs/local/lib/python3.10/dist-packages:/home/user/exchange/ros_proxy_ws/install/session_event_msgs/local/lib/python3.10/dist-packages:/home/user/exchange/ros_proxy_ws/build/ros_proxy:/home/user/exchange/ros_proxy_ws/install/ros_proxy/lib/python3.10/site-packages:/opt/pal/alum/lib/python3.10/site-packages:/opt/pal/alum/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('PAL_DISTRO', 'alum'), ('LOCAL_GROUP_NAME', 'andrea'), ('CMAKE_PREFIX_PATH', '/home/user/exchange/unimore_ws/install/sermas_test_pkg:/home/user/exchange/unimore_ws/install/goal_action_pkg:/home/user/exchange/unimore_ws/install/tts_msgs:/home/user/exchange/unimore_ws/install/cbf-stl-no-noise_pkg:/home/user/exchange/unimore_ws/install/my_interfaces_cbf_stl:/home/user/exchange/unimore_ws/install/move_arms_pkg:/home/user/exchange/zed2_camera_ws/install/zed_ros2:/home/user/exchange/zed2_camera_ws/install/zed_robot_integration:/home/user/exchange/zed2_camera_ws/install/zed_ipc:/home/user/exchange/zed2_camera_ws/install/zed_multi_camera:/home/user/exchange/zed2_camera_ws/install/zed_display_rviz2:/home/user/exchange/zed2_camera_ws/install/zed_depth_to_laserscan:/home/user/exchange/zed2_camera_ws/install/zed_wrapper:/home/user/exchange/zed2_camera_ws/install/zed_tutorial_video:/home/user/exchange/zed2_camera_ws/install/zed_tutorial_pos_tracking:/home/user/exchange/zed2_camera_ws/install/zed_tutorial_depth:/home/user/exchange/zed2_camera_ws/install/zed_topic_benchmark:/home/user/exchange/zed2_camera_ws/install/zed_topic_benchmark_component:/home/user/exchange/zed2_camera_ws/install/zed_topic_benchmark_interfaces:/home/user/exchange/zed2_camera_ws/install/zed_rgb_convert:/home/user/exchange/zed2_camera_ws/install/zed_aruco_localization:/home/user/exchange/zed2_camera_ws/install/zed_components:/home/user/exchange/zed2_camera_ws/install/zed-ros2-distance_pkg:/home/user/exchange/zed2_camera_ws/install/rviz_plugin_zed_od:/home/user/exchange/zed2_camera_ws/install/zed_msgs:/home/user/exchange/ros_proxy_ws/install/users_landmarks_msgs:/home/user/exchange/ros_proxy_ws/install/session_event_msgs:/opt/pal/alum/opt/rbdl_vendor:/home/user/exchange/unimore_ws/install/check_obstacles_pkg:/home/user/exchange/ros_proxy_ws/install/ros_proxy:/opt/pal/alum:/opt/ros/humble')]), 'shell': False}
+[9.854545] (zed_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.855038] (zed_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.855200] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/ament_index/resource_index/rosidl_interfaces/zed_msgs\n'}
+[9.860591] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box2_df.h\n'}
+[9.866898] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box2_di.h\n'}
+[9.872851] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box3_d.h\n'}
+[9.879305] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/depth_info_stamped.h\n'}
+[9.887577] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__functions.h\n'}
+[9.892757] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__struct.h\n'}
+[9.899654] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__type_support.h\n'}
+[9.906794] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__functions.h\n'}
+[9.911839] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__struct.h\n'}
+[9.918499] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__type_support.h\n'}
+[9.923176] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__functions.h\n'}
+[9.929467] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__struct.h\n'}
+[9.929541] (-) TimerEvent: {}
+[9.934179] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__type_support.h\n'}
+[9.940614] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__functions.h\n'}
+[9.947476] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__struct.h\n'}
+[9.952709] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__type_support.h\n'}
+[9.958884] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__functions.h\n'}
+[9.965405] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__struct.h\n'}
+[9.969907] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__type_support.h\n'}
+[9.974586] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__functions.h\n'}
+[9.980264] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__struct.h\n'}
+[9.986835] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__type_support.h\n'}
+[9.992363] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__functions.h\n'}
+[9.998695] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__struct.h\n'}
+[10.004976] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__type_support.h\n'}
+[10.011358] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__functions.h\n'}
+[10.016089] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__struct.h\n'}
+[10.021068] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__type_support.h\n'}
+[10.027336] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__functions.h\n'}
+[10.029604] (-) TimerEvent: {}
+[10.033276] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__struct.h\n'}
+[10.039466] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__type_support.h\n'}
+[10.044821] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__functions.h\n'}
+[10.051402] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__struct.h\n'}
+[10.056233] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__type_support.h\n'}
+[10.061422] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__functions.h\n'}
+[10.067825] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__struct.h\n'}
+[10.073269] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__type_support.h\n'}
+[10.078070] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__functions.h\n'}
+[10.082595] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__struct.h\n'}
+[10.088834] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__type_support.h\n'}
+[10.093968] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__functions.h\n'}
+[10.098596] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__struct.h\n'}
+[10.103048] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__type_support.h\n'}
+[10.109653] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__functions.h\n'}
+[10.114570] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__struct.h\n'}
+[10.119251] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__type_support.h\n'}
+[10.125265] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__functions.h\n'}
+[10.129673] (-) TimerEvent: {}
+[10.131342] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__struct.h\n'}
+[10.137497] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__type_support.h\n'}
+[10.142816] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__functions.h\n'}
+[10.149419] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__struct.h\n'}
+[10.154397] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__type_support.h\n'}
+[10.158967] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__functions.h\n'}
+[10.163513] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__struct.h\n'}
+[10.170206] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__type_support.h\n'}
+[10.175552] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__functions.h\n'}
+[10.180336] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__struct.h\n'}
+[10.186620] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__type_support.h\n'}
+[10.192970] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/gnss_fusion_status.h\n'}
+[10.199177] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/health_status_stamped.h\n'}
+[10.205112] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/heartbeat.h\n'}
+[10.210160] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint2_df.h\n'}
+[10.215328] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint2_di.h\n'}
+[10.220427] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint3_d.h\n'}
+[10.225752] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/mag_heading_status.h\n'}
+[10.229741] (-) TimerEvent: {}
+[10.232141] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/object.h\n'}
+[10.237259] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/objects_stamped.h\n'}
+[10.242797] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/plane_stamped.h\n'}
+[10.249092] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/pos_track_status.h\n'}
+[10.255560] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.261566] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/skeleton2_d.h\n'}
+[10.267901] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/skeleton3_d.h\n'}
+[10.273176] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/svo_status.h\n'}
+[10.278648] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__functions.h\n'}
+[10.283079] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__struct.h\n'}
+[10.289571] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__type_support.h\n'}
+[10.296037] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__functions.h\n'}
+[10.302359] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__struct.h\n'}
+[10.308501] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__type_support.h\n'}
+[10.313120] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__functions.h\n'}
+[10.318584] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__struct.h\n'}
+[10.323362] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__type_support.h\n'}
+[10.329758] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__functions.h\n'}
+[10.329833] (-) TimerEvent: {}
+[10.336432] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__struct.h\n'}
+[10.342346] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__type_support.h\n'}
+[10.348525] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/set_pose.h\n'}
+[10.353183] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/set_roi.h\n'}
+[10.359313] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/set_svo_frame.h\n'}
+[10.364255] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/start_svo_rec.h\n'}
+[10.370718] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/environment/library_path.sh\n'}
+[10.377091] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/environment/library_path.dsv\n'}
+[10.383394] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__rosidl_typesupport_fastrtps_c.h\n'}
+[10.389610] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__rosidl_typesupport_fastrtps_c.h\n'}
+[10.394120] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_c.h\n'}
+[10.399281] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[10.404186] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__rosidl_typesupport_fastrtps_c.h\n'}
+[10.410909] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[10.416087] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__rosidl_typesupport_fastrtps_c.h\n'}
+[10.421793] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__rosidl_typesupport_fastrtps_c.h\n'}
+[10.426115] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__rosidl_typesupport_fastrtps_c.h\n'}
+[10.429901] (-) TimerEvent: {}
+[10.431933] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__rosidl_typesupport_fastrtps_c.h\n'}
+[10.436937] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__rosidl_typesupport_fastrtps_c.h\n'}
+[10.443645] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__rosidl_typesupport_fastrtps_c.h\n'}
+[10.448403] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[10.454240] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[10.459546] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__rosidl_typesupport_fastrtps_c.h\n'}
+[10.465882] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__rosidl_typesupport_fastrtps_c.h\n'}
+[10.472552] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__rosidl_typesupport_fastrtps_c.h\n'}
+[10.476946] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__rosidl_typesupport_fastrtps_c.h\n'}
+[10.483543] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.487897] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[10.494237] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__rosidl_typesupport_fastrtps_c.h\n'}
+[10.500739] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__rosidl_typesupport_fastrtps_c.h\n'}
+[10.506016] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__rosidl_typesupport_fastrtps_c.h\n'}
+[10.511134] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box2_df.hpp\n'}
+[10.516031] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box2_di.hpp\n'}
+[10.520828] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box3_d.hpp\n'}
+[10.526212] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/depth_info_stamped.hpp\n'}
+[10.529959] (-) TimerEvent: {}
+[10.533058] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__builder.hpp\n'}
+[10.538689] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__struct.hpp\n'}
+[10.543911] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__traits.hpp\n'}
+[10.549157] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__type_support.hpp\n'}
+[10.555741] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__builder.hpp\n'}
+[10.560700] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__struct.hpp\n'}
+[10.566749] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__traits.hpp\n'}
+[10.571060] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__type_support.hpp\n'}
+[10.576706] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__builder.hpp\n'}
+[10.581427] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__struct.hpp\n'}
+[10.587682] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__traits.hpp\n'}
+[10.592147] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__type_support.hpp\n'}
+[10.597006] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__builder.hpp\n'}
+[10.602146] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__struct.hpp\n'}
+[10.608522] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__traits.hpp\n'}
+[10.614969] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__type_support.hpp\n'}
+[10.621345] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__builder.hpp\n'}
+[10.626473] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__struct.hpp\n'}
+[10.630020] (-) TimerEvent: {}
+[10.630790] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__traits.hpp\n'}
+[10.636800] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__type_support.hpp\n'}
+[10.642686] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__builder.hpp\n'}
+[10.649112] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__struct.hpp\n'}
+[10.655196] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__traits.hpp\n'}
+[10.661784] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__type_support.hpp\n'}
+[10.666663] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__builder.hpp\n'}
+[10.673452] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__struct.hpp\n'}
+[10.678632] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__traits.hpp\n'}
+[10.683509] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__type_support.hpp\n'}
+[10.689067] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__builder.hpp\n'}
+[10.694981] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__struct.hpp\n'}
+[10.701289] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__traits.hpp\n'}
+[10.706174] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__type_support.hpp\n'}
+[10.710882] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__builder.hpp\n'}
+[10.716048] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__struct.hpp\n'}
+[10.720912] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__traits.hpp\n'}
+[10.725985] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__type_support.hpp\n'}
+[10.730080] (-) TimerEvent: {}
+[10.730549] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__builder.hpp\n'}
+[10.735879] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__struct.hpp\n'}
+[10.740703] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__traits.hpp\n'}
+[10.746097] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__type_support.hpp\n'}
+[10.750695] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__builder.hpp\n'}
+[10.755961] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__struct.hpp\n'}
+[10.760611] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__traits.hpp\n'}
+[10.765238] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__type_support.hpp\n'}
+[10.770167] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__builder.hpp\n'}
+[10.775991] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__struct.hpp\n'}
+[10.780664] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__traits.hpp\n'}
+[10.785876] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__type_support.hpp\n'}
+[10.790989] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__builder.hpp\n'}
+[10.797047] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__struct.hpp\n'}
+[10.803265] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__traits.hpp\n'}
+[10.808925] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__type_support.hpp\n'}
+[10.815008] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__builder.hpp\n'}
+[10.820277] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__struct.hpp\n'}
+[10.825566] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__traits.hpp\n'}
+[10.830142] (-) TimerEvent: {}
+[10.830268] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__type_support.hpp\n'}
+[10.836675] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__builder.hpp\n'}
+[10.841873] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__struct.hpp\n'}
+[10.846569] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__traits.hpp\n'}
+[10.850920] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__type_support.hpp\n'}
+[10.856566] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__builder.hpp\n'}
+[10.861621] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__struct.hpp\n'}
+[10.866445] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__traits.hpp\n'}
+[10.870873] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__type_support.hpp\n'}
+[10.877052] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__builder.hpp\n'}
+[10.881725] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__struct.hpp\n'}
+[10.886490] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__traits.hpp\n'}
+[10.890838] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__type_support.hpp\n'}
+[10.896632] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__builder.hpp\n'}
+[10.901533] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__struct.hpp\n'}
+[10.906210] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__traits.hpp\n'}
+[10.910621] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__type_support.hpp\n'}
+[10.915644] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/gnss_fusion_status.hpp\n'}
+[10.920128] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/health_status_stamped.hpp\n'}
+[10.924889] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/heartbeat.hpp\n'}
+[10.930095] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint2_df.hpp\n'}
+[10.930168] (-) TimerEvent: {}
+[10.937062] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint2_di.hpp\n'}
+[10.942111] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint3_d.hpp\n'}
+[10.946825] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/mag_heading_status.hpp\n'}
+[10.951666] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/object.hpp\n'}
+[10.957640] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/objects_stamped.hpp\n'}
+[10.962885] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/plane_stamped.hpp\n'}
+[10.967682] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/pos_track_status.hpp\n'}
+[10.972065] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[10.977352] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/skeleton2_d.hpp\n'}
+[10.982535] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/skeleton3_d.hpp\n'}
+[10.989361] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/svo_status.hpp\n'}
+[10.995687] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__builder.hpp\n'}
+[11.001159] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__struct.hpp\n'}
+[11.007236] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__traits.hpp\n'}
+[11.011882] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__type_support.hpp\n'}
+[11.017531] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__builder.hpp\n'}
+[11.024028] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__struct.hpp\n'}
+[11.029359] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__traits.hpp\n'}
+[11.030236] (-) TimerEvent: {}
+[11.034555] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__type_support.hpp\n'}
+[11.039444] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__builder.hpp\n'}
+[11.044577] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__struct.hpp\n'}
+[11.049195] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__traits.hpp\n'}
+[11.055397] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__type_support.hpp\n'}
+[11.060227] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__builder.hpp\n'}
+[11.066552] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__struct.hpp\n'}
+[11.073163] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__traits.hpp\n'}
+[11.078671] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__type_support.hpp\n'}
+[11.083379] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/set_pose.hpp\n'}
+[11.088596] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/set_roi.hpp\n'}
+[11.094934] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/set_svo_frame.hpp\n'}
+[11.099627] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/start_svo_rec.hpp\n'}
+[11.106386] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.112644] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.118308] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.124773] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.130306] (-) TimerEvent: {}
+[11.130482] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.136315] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.141093] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.145637] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.149964] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.156637] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.161294] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.167169] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.173661] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.178484] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.183064] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.188378] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.195142] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.200155] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.206382] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.212595] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.218124] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.224439] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.229220] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.230375] (-) TimerEvent: {}
+[11.235441] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__rosidl_typesupport_introspection_c.h\n'}
+[11.240047] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__rosidl_typesupport_introspection_c.h\n'}
+[11.246111] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_c.h\n'}
+[11.250597] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__rosidl_typesupport_introspection_c.h\n'}
+[11.256919] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__rosidl_typesupport_introspection_c.h\n'}
+[11.263405] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__rosidl_typesupport_introspection_c.h\n'}
+[11.268917] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__rosidl_typesupport_introspection_c.h\n'}
+[11.274953] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__rosidl_typesupport_introspection_c.h\n'}
+[11.279710] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__rosidl_typesupport_introspection_c.h\n'}
+[11.284227] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__rosidl_typesupport_introspection_c.h\n'}
+[11.289424] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__rosidl_typesupport_introspection_c.h\n'}
+[11.295211] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__rosidl_typesupport_introspection_c.h\n'}
+[11.299839] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__rosidl_typesupport_introspection_c.h\n'}
+[11.305645] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__rosidl_typesupport_introspection_c.h\n'}
+[11.310561] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__rosidl_typesupport_introspection_c.h\n'}
+[11.316369] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__rosidl_typesupport_introspection_c.h\n'}
+[11.322225] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__rosidl_typesupport_introspection_c.h\n'}
+[11.328133] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__rosidl_typesupport_introspection_c.h\n'}
+[11.330442] (-) TimerEvent: {}
+[11.334416] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.339838] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__rosidl_typesupport_introspection_c.h\n'}
+[11.345203] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__rosidl_typesupport_introspection_c.h\n'}
+[11.349936] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__rosidl_typesupport_introspection_c.h\n'}
+[11.355749] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__rosidl_typesupport_introspection_c.h\n'}
+[11.360906] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.366993] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.371568] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.377772] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.384477] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.389730] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.396162] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.401182] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.407177] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.412632] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.418960] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.425182] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.429909] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.430512] (-) TimerEvent: {}
+[11.436822] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.443370] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.448329] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.453106] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.458876] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.465075] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.470886] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.475085] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.479579] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.484169] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/environment/pythonpath.sh\n'}
+[11.489245] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/environment/pythonpath.dsv\n'}
+[11.495753] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs-5.0.0-py3.10.egg-info/PKG-INFO\n'}
+[11.500417] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs-5.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[11.506494] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs-5.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[11.511536] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs-5.0.0-py3.10.egg-info/top_level.txt\n'}
+[11.518387] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/__init__.py\n'}
+[11.524753] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/_zed_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[11.530586] (-) TimerEvent: {}
+[11.530707] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/_zed_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.537469] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/_zed_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.544311] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/libzed_msgs__rosidl_generator_py.so\n'}
+[11.549699] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/__init__.py\n'}
+[11.554444] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box2_df.py\n'}
+[11.559755] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box2_df_s.c\n'}
+[11.564436] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box2_di.py\n'}
+[11.569686] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box2_di_s.c\n'}
+[11.574294] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box3_d.py\n'}
+[11.580137] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box3_d_s.c\n'}
+[11.586353] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_depth_info_stamped.py\n'}
+[11.591882] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_depth_info_stamped_s.c\n'}
+[11.597414] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_gnss_fusion_status.py\n'}
+[11.603634] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_gnss_fusion_status_s.c\n'}
+[11.609474] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_health_status_stamped.py\n'}
+[11.614825] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_health_status_stamped_s.c\n'}
+[11.619282] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_heartbeat.py\n'}
+[11.624819] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_heartbeat_s.c\n'}
+[11.629930] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint2_df.py\n'}
+[11.630651] (-) TimerEvent: {}
+[11.636025] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint2_df_s.c\n'}
+[11.640818] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint2_di.py\n'}
+[11.645490] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint2_di_s.c\n'}
+[11.651798] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint3_d.py\n'}
+[11.658344] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint3_d_s.c\n'}
+[11.663166] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_mag_heading_status.py\n'}
+[11.669685] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_mag_heading_status_s.c\n'}
+[11.674418] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_object.py\n'}
+[11.678929] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_object_s.c\n'}
+[11.683471] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_objects_stamped.py\n'}
+[11.690010] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_objects_stamped_s.c\n'}
+[11.696022] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_plane_stamped.py\n'}
+[11.700688] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_plane_stamped_s.c\n'}
+[11.707064] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_pos_track_status.py\n'}
+[11.712362] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_pos_track_status_s.c\n'}
+[11.717910] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_skeleton2_d.py\n'}
+[11.724146] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_skeleton2_d_s.c\n'}
+[11.730732] (-) TimerEvent: {}
+[11.730877] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_skeleton3_d.py\n'}
+[11.736783] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_skeleton3_d_s.c\n'}
+[11.740969] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_svo_status.py\n'}
+[11.748734] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_svo_status_s.c\n'}
+[11.753720] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/__init__.py\n'}
+[11.758324] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_pose.py\n'}
+[11.764621] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_pose_s.c\n'}
+[11.770944] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_roi.py\n'}
+[11.777399] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_roi_s.c\n'}
+[11.782760] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_svo_frame.py\n'}
+[11.789046] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_svo_frame_s.c\n'}
+[11.793835] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_start_svo_rec.py\n'}
+[11.799342] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_start_svo_rec_s.c\n'}
+[11.806087] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.811916] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.818062] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.824013] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.824118] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.824231] (zed_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.824329] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/Object.idl\n'}
+[11.830698] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/ObjectsStamped.idl\n'}
+[11.830757] (-) TimerEvent: {}
+[11.835711] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint2Di.idl\n'}
+[11.840691] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint2Df.idl\n'}
+[11.846840] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint3D.idl\n'}
+[11.851359] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox2Di.idl\n'}
+[11.858402] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox2Df.idl\n'}
+[11.863197] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox3D.idl\n'}
+[11.869291] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/Skeleton2D.idl\n'}
+[11.874907] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/Skeleton3D.idl\n'}
+[11.879952] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/DepthInfoStamped.idl\n'}
+[11.884587] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/PlaneStamped.idl\n'}
+[11.891300] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/PosTrackStatus.idl\n'}
+[11.896819] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/GnssFusionStatus.idl\n'}
+[11.902008] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/Heartbeat.idl\n'}
+[11.908162] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/MagHeadingStatus.idl\n'}
+[11.914589] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/SvoStatus.idl\n'}
+[11.920019] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/HealthStatusStamped.idl\n'}
+[11.925313] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/srv/SetPose.idl\n'}
+[11.930830] (-) TimerEvent: {}
+[11.931388] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/srv/StartSvoRec.idl\n'}
+[11.936751] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/srv/SetROI.idl\n'}
+[11.942357] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/srv/SetSvoFrame.idl\n'}
+[11.948842] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/Object.msg\n'}
+[11.954101] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/ObjectsStamped.msg\n'}
+[11.960696] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint2Di.msg\n'}
+[11.965274] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint2Df.msg\n'}
+[11.971461] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint3D.msg\n'}
+[11.977522] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox2Di.msg\n'}
+[11.983080] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox2Df.msg\n'}
+[11.989221] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox3D.msg\n'}
+[11.994535] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/Skeleton2D.msg\n'}
+[11.999677] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/Skeleton3D.msg\n'}
+[12.004341] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/DepthInfoStamped.msg\n'}
+[12.010692] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/PlaneStamped.msg\n'}
+[12.015461] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/PosTrackStatus.msg\n'}
+[12.020296] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/GnssFusionStatus.msg\n'}
+[12.024887] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/Heartbeat.msg\n'}
+[12.030923] (-) TimerEvent: {}
+[12.031278] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/MagHeadingStatus.msg\n'}
+[12.037559] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/SvoStatus.msg\n'}
+[12.042548] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/HealthStatusStamped.msg\n'}
+[12.046949] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/srv/SetPose.srv\n'}
+[12.052813] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/srv/SetPose_Request.msg\n'}
+[12.059234] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/srv/SetPose_Response.msg\n'}
+[12.065290] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/srv/StartSvoRec.srv\n'}
+[12.071063] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/srv/StartSvoRec_Request.msg\n'}
+[12.077619] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/srv/StartSvoRec_Response.msg\n'}
+[12.082068] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/srv/SetROI.srv\n'}
+[12.087059] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/srv/SetROI_Request.msg\n'}
+[12.093552] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/srv/SetROI_Response.msg\n'}
+[12.099578] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/srv/SetSvoFrame.srv\n'}
+[12.104677] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/srv/SetSvoFrame_Request.msg\n'}
+[12.111360] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/srv/SetSvoFrame_Response.msg\n'}
+[12.117782] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/meshes/virtual.stl\n'}
+[12.122954] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/meshes/zed.stl\n'}
+[12.128152] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/meshes/zed2.stl\n'}
+[12.130989] (-) TimerEvent: {}
+[12.133842] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/meshes/zed2i.stl\n'}
+[12.139013] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/meshes/zedm.stl\n'}
+[12.143804] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/meshes/zedx.stl\n'}
+[12.150137] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/meshes/zedxm.stl\n'}
+[12.154821] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/meshes/zedxone4k.stl\n'}
+[12.159333] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/meshes/zedxonegs.stl\n'}
+[12.166134] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/ament_index/resource_index/package_run_dependencies/zed_msgs\n'}
+[12.172412] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/ament_index/resource_index/parent_prefix_path/zed_msgs\n'}
+[12.178835] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/environment/ament_prefix_path.sh\n'}
+[12.183677] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/environment/ament_prefix_path.dsv\n'}
+[12.188575] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/environment/path.sh\n'}
+[12.194231] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/environment/path.dsv\n'}
+[12.199658] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/local_setup.bash\n'}
+[12.204244] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/local_setup.sh\n'}
+[12.208883] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/local_setup.zsh\n'}
+[12.213803] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/local_setup.dsv\n'}
+[12.220279] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/package.dsv\n'}
+[12.225063] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/ament_index/resource_index/packages/zed_msgs\n'}
+[12.229756] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[12.231059] (-) TimerEvent: {}
+[12.234730] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.241207] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.246038] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.252255] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.258074] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.264112] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.270496] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgsConfig.cmake\n'}
+[12.275803] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgsConfig-version.cmake\n'}
+[12.282055] (zed_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/package.xml\n'}
+[12.287496] (zed_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/lib/libzed_msgs__rosidl_generator_c.so\n'}
+[12.287598] (zed_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/lib/libzed_msgs__rosidl_generator_c.so" to ""\n'}
+[12.287650] (zed_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[12.287759] (zed_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[12.287804] (zed_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[12.288098] (zed_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[12.288166] (zed_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_introspection_c.so\n'}
+[12.288241] (zed_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[12.288291] (zed_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_c.so\n'}
+[12.288350] (zed_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_c.so" to ""\n'}
+[12.288394] (zed_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[12.288605] (zed_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[12.288651] (zed_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_cpp.so\n'}
+[12.288766] (zed_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[12.331160] (-) TimerEvent: {}
+[12.331483] (zed_msgs) StdoutLine: {'line': b"Listing '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs'...\n"}
+[12.331560] (zed_msgs) StdoutLine: {'line': b"Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/__init__.py'...\n"}
+[12.331602] (zed_msgs) StdoutLine: {'line': b"Listing '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg'...\n"}
+[12.331637] (zed_msgs) StdoutLine: {'line': b"Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/__init__.py'...\n"}
+[12.331672] (zed_msgs) StdoutLine: {'line': b"Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box2_df.py'...\n"}
+[12.331707] (zed_msgs) StdoutLine: {'line': b"Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box2_di.py'...\n"}
+[12.331741] (zed_msgs) StdoutLine: {'line': b"Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box3_d.py'...\n"}
+[12.331867] (zed_msgs) StdoutLine: {'line': b"Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_depth_info_stamped.py'...\n"}
+[12.331904] (zed_msgs) StdoutLine: {'line': b"Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_gnss_fusion_status.py'...\n"}
+[12.331934] (zed_msgs) StdoutLine: {'line': b"Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_health_status_stamped.py'...\n"}
+[12.331965] (zed_msgs) StdoutLine: {'line': b"Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_heartbeat.py'...\n"}
+[12.332000] (zed_msgs) StdoutLine: {'line': b"Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint2_df.py'...\n"}
+[12.332031] (zed_msgs) StdoutLine: {'line': b"Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint2_di.py'...\n"}
+[12.332062] (zed_msgs) StdoutLine: {'line': b"Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint3_d.py'...\n"}
+[12.332095] (zed_msgs) StdoutLine: {'line': b"Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_mag_heading_status.py'...\n"}
+[12.332127] (zed_msgs) StdoutLine: {'line': b"Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_object.py'...\n"}
+[12.332159] (zed_msgs) StdoutLine: {'line': b"Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_objects_stamped.py'...\n"}
+[12.332195] (zed_msgs) StdoutLine: {'line': b"Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_plane_stamped.py'...\n"}
+[12.332228] (zed_msgs) StdoutLine: {'line': b"Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_pos_track_status.py'...\n"}
+[12.332260] (zed_msgs) StdoutLine: {'line': b"Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_skeleton2_d.py'...\n"}
+[12.332293] (zed_msgs) StdoutLine: {'line': b"Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_skeleton3_d.py'...\n"}
+[12.332325] (zed_msgs) StdoutLine: {'line': b"Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_svo_status.py'...\n"}
+[12.332356] (zed_msgs) StdoutLine: {'line': b"Listing '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv'...\n"}
+[12.332387] (zed_msgs) StdoutLine: {'line': b"Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/__init__.py'...\n"}
+[12.332419] (zed_msgs) StdoutLine: {'line': b"Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_pose.py'...\n"}
+[12.332450] (zed_msgs) StdoutLine: {'line': b"Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_roi.py'...\n"}
+[12.332481] (zed_msgs) StdoutLine: {'line': b"Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_svo_frame.py'...\n"}
+[12.332512] (zed_msgs) StdoutLine: {'line': b"Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_start_svo_rec.py'...\n"}
+[12.334993] (zed_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/lib/libzed_msgs__rosidl_generator_py.so\n'}
+[12.335327] (zed_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/lib/libzed_msgs__rosidl_generator_py.so" to ""\n'}
+[12.335395] (zed_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_generator_cExport.cmake\n'}
+[12.335428] (zed_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.335457] (zed_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[12.335484] (zed_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[12.335707] (zed_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_generator_cppExport.cmake\n'}
+[12.335772] (zed_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[12.335805] (zed_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[12.335972] (zed_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.336033] (zed_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.336067] (zed_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_cExport.cmake\n'}
+[12.336092] (zed_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.336116] (zed_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.336166] (zed_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.336190] (zed_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[12.336213] (zed_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.336239] (zed_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_generator_pyExport.cmake\n'}
+[12.336262] (zed_msgs) StdoutLine: {'line': b'-- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[12.337843] (zed_msgs) CommandEnded: {'returncode': 0}
+[12.356707] (zed_msgs) JobEnded: {'identifier': 'zed_msgs', 'rc': 0}
+[12.357285] (-) EventReactorShutdown: {}

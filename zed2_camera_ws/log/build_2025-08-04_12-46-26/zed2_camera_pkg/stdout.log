@@ -1,0 +1,22 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/zed2_camera_node.dir/src/zed2_camera_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable zed2_camera_node[0m
+[100%] Built target zed2_camera_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/lib/zed2_camera_pkg/zed2_camera_node
+-- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/share/zed2_camera_pkg/launch/zed2_camera.launch.py
+-- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/share/ament_index/resource_index/package_run_dependencies/zed2_camera_pkg
+-- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/share/ament_index/resource_index/parent_prefix_path/zed2_camera_pkg
+-- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/share/zed2_camera_pkg/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/share/zed2_camera_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/share/zed2_camera_pkg/environment/path.sh
+-- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/share/zed2_camera_pkg/environment/path.dsv
+-- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/share/zed2_camera_pkg/local_setup.bash
+-- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/share/zed2_camera_pkg/local_setup.sh
+-- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/share/zed2_camera_pkg/local_setup.zsh
+-- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/share/zed2_camera_pkg/local_setup.dsv
+-- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/share/zed2_camera_pkg/package.dsv
+-- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/share/ament_index/resource_index/packages/zed2_camera_pkg
+-- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/share/zed2_camera_pkg/cmake/zed2_camera_pkgConfig.cmake
+-- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/share/zed2_camera_pkg/cmake/zed2_camera_pkgConfig-version.cmake
+-- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/share/zed2_camera_pkg/package.xml

@@ -1,0 +1,1 @@
+/home/user/exchange/omnibase_ws/zed2_camera_ws/src/zed-ros2-examples/examples/zed_aruco_localization/src/include/aruco_loc_visibility_control.hpp

@@ -1,0 +1,1 @@
+/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_msgs/rosidl_generator_py/zed_msgs/msg/_svo_status.py

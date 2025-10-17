@@ -1,0 +1,4 @@
+source;share/zed2_camera_pkg/local_setup.bash
+source;share/zed2_camera_pkg/local_setup.dsv
+source;share/zed2_camera_pkg/local_setup.sh
+source;share/zed2_camera_pkg/local_setup.zsh

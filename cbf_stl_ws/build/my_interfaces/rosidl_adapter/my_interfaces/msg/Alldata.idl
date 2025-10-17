@@ -1,0 +1,58 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from my_interfaces/msg/Alldata.msg
+// generated code does not contain a copyright notice
+
+
+module my_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "v_real")
+    struct Alldata {
+      float all_v_real;
+
+      @verbatim (language="comment", text=
+        "v_max")
+      float all_v_max;
+
+      @verbatim (language="comment", text=
+        "h_barrier")
+      float all_h_barrier;
+
+      @verbatim (language="comment", text=
+        "x_pos")
+      float all_x_pos;
+
+      @verbatim (language="comment", text=
+        "y_pos")
+      float all_y_pos;
+
+      @verbatim (language="comment", text=
+        "theta_rot")
+      float all_theta_rot;
+
+      @verbatim (language="comment", text=
+        "distance HR")
+      float all_distance_hr;
+
+      @verbatim (language="comment", text=
+        "global_counter")
+      int64 all_global_counter;
+
+      @verbatim (language="comment", text=
+        "temporal_operator_counter")
+      int64 all_temporal_operator_counter;
+
+      @verbatim (language="comment", text=
+        "reach goal pose")
+      boolean all_flag_finish;
+
+      @verbatim (language="comment", text=
+        "closer obs x")
+      float all_obs_x_closer;
+
+      @verbatim (language="comment", text=
+        "closer obs y")
+      float all_obs_y_closer;
+    };
+  };
+};

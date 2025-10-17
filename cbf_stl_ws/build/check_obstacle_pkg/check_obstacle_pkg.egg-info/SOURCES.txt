@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+check_obstacle_pkg/__init__.py
+check_obstacle_pkg/check_obstacle_node.py
+check_obstacle_pkg.egg-info/PKG-INFO
+check_obstacle_pkg.egg-info/SOURCES.txt
+check_obstacle_pkg.egg-info/dependency_links.txt
+check_obstacle_pkg.egg-info/entry_points.txt
+check_obstacle_pkg.egg-info/requires.txt
+check_obstacle_pkg.egg-info/top_level.txt
+check_obstacle_pkg.egg-info/zip-safe
+resource/check_obstacle_pkg

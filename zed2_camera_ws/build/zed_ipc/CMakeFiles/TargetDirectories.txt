@@ -1,0 +1,11 @@
+/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_ipc/CMakeFiles/uninstall.dir
+/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_ipc/CMakeFiles/zed_ipc_uninstall.dir
+/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_ipc/CMakeFiles/all_zed_ipc_files.dir
+/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_ipc/CMakeFiles/pointcloud_component.dir
+/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_ipc/CMakeFiles/test.dir
+/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_ipc/CMakeFiles/edit_cache.dir
+/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_ipc/CMakeFiles/rebuild_cache.dir
+/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_ipc/CMakeFiles/list_install_components.dir
+/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_ipc/CMakeFiles/install.dir
+/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_ipc/CMakeFiles/install/local.dir
+/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_ipc/CMakeFiles/install/strip.dir

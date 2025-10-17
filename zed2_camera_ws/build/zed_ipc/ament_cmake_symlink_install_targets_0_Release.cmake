@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_ipc/libpointcloud_component.so" "TARGETS" "pointcloud_component" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/zed_ipc")

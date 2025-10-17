@@ -1,0 +1,41 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from zed_msgs/msg/HealthStatusStamped.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module zed_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Message to provide information concerning the status of health of the ZED Camera")
+    struct HealthStatusStamped {
+      @verbatim (language="comment", text=
+        "Standard Header")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "ZED Camera serial number")
+      uint32 serial_number;
+
+      @verbatim (language="comment", text=
+        "ZED Camera name")
+      string camera_name;
+
+      @verbatim (language="comment", text=
+        "Image quality is degraded")
+      boolean low_image_quality;
+
+      @verbatim (language="comment", text=
+        "Environmental light conditions are not optimal")
+      boolean low_lighting;
+
+      @verbatim (language="comment", text=
+        "Depth reliability is low")
+      boolean low_depth_reliability;
+
+      @verbatim (language="comment", text=
+        "Motion sensors reliability is low")
+      boolean low_motion_sensors_reliability;
+    };
+  };
+};

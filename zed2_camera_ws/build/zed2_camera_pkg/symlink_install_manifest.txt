@@ -1,0 +1,17 @@
+/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/lib/zed2_camera_pkg/zed2_camera_node
+/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/share/zed2_camera_pkg/launch/zed2_camera.launch.py
+/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/share/ament_index/resource_index/package_run_dependencies/zed2_camera_pkg
+/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/share/ament_index/resource_index/parent_prefix_path/zed2_camera_pkg
+/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/share/zed2_camera_pkg/environment/ament_prefix_path.sh
+/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/share/zed2_camera_pkg/environment/ament_prefix_path.dsv
+/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/share/zed2_camera_pkg/environment/path.sh
+/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/share/zed2_camera_pkg/environment/path.dsv
+/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/share/zed2_camera_pkg/local_setup.bash
+/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/share/zed2_camera_pkg/local_setup.sh
+/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/share/zed2_camera_pkg/local_setup.zsh
+/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/share/zed2_camera_pkg/local_setup.dsv
+/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/share/zed2_camera_pkg/package.dsv
+/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/share/ament_index/resource_index/packages/zed2_camera_pkg
+/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/share/zed2_camera_pkg/cmake/zed2_camera_pkgConfig.cmake
+/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/share/zed2_camera_pkg/cmake/zed2_camera_pkgConfig-version.cmake
+/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed2_camera_pkg/share/zed2_camera_pkg/package.xml

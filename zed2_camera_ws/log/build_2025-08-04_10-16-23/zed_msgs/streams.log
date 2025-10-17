@@ -1,0 +1,769 @@
+[0.011s] Invoking command in '/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/exchange/unimore_ws/install/check_obstacles_pkg:/home/user/exchange/ros_proxy_ws/install/ros_proxy:/opt/pal/alum:/opt/ros/humble /usr/bin/cmake /home/user/exchange/omnibase_ws/zed2_camera_ws/src/zed-ros2-interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs
+[0.066s] -- The C compiler identification is GNU 11.4.0
+[0.110s] -- The CXX compiler identification is GNU 11.4.0
+[0.116s] -- Detecting C compiler ABI info
+[0.167s] -- Detecting C compiler ABI info - done
+[0.171s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.171s] -- Detecting C compile features
+[0.171s] -- Detecting C compile features - done
+[0.173s] -- Detecting CXX compiler ABI info
+[0.227s] -- Detecting CXX compiler ABI info - done
+[0.231s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.231s] -- Detecting CXX compile features
+[0.231s] -- Detecting CXX compile features - done
+[0.235s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.349s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.391s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.535s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.543s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.553s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.567s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.585s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.655s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.915s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.208s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.320s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.337s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.341s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.361s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.361s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.361s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.361s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.376s] -- Found PythonExtra: .so  
+[1.433s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.434s] -- Added test 'lint_cmake' to check CMake code style
+[1.436s] -- Added test 'xmllint' to check XML markup files
+[1.440s] -- Configuring done
+[1.483s] -- Generating done
+[1.492s] -- Build files have been written to: /home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_msgs
+[1.499s] Invoked command in '/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/exchange/unimore_ws/install/check_obstacles_pkg:/home/user/exchange/ros_proxy_ws/install/ros_proxy:/opt/pal/alum:/opt/ros/humble /usr/bin/cmake /home/user/exchange/omnibase_ws/zed2_camera_ws/src/zed-ros2-interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs
+[1.502s] Invoking command in '/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/exchange/unimore_ws/install/check_obstacles_pkg:/home/user/exchange/ros_proxy_ws/install/ros_proxy:/opt/pal/alum:/opt/ros/humble /usr/bin/cmake --build /home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_msgs -- -j22 -l22
+[1.541s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.555s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.557s] [  0%] Built target ament_cmake_python_symlink_zed_msgs
+[1.736s] running egg_info
+[1.736s] creating zed_msgs.egg-info
+[1.736s] writing zed_msgs.egg-info/PKG-INFO
+[1.737s] writing dependency_links to zed_msgs.egg-info/dependency_links.txt
+[1.737s] writing top-level names to zed_msgs.egg-info/top_level.txt
+[1.737s] writing manifest file 'zed_msgs.egg-info/SOURCES.txt'
+[1.738s] reading manifest file 'zed_msgs.egg-info/SOURCES.txt'
+[1.738s] writing manifest file 'zed_msgs.egg-info/SOURCES.txt'
+[1.758s] [  0%] Built target ament_cmake_python_build_zed_msgs_egg
+[3.035s] [  1%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/object__functions.c.o[0m
+[3.036s] [  2%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/keypoint3_d__functions.c.o[0m
+[3.036s] [  3%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/bounding_box2_df__functions.c.o[0m
+[3.037s] [  4%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/skeleton2_d__functions.c.o[0m
+[3.037s] [  4%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/objects_stamped__functions.c.o[0m
+[3.037s] [  5%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/keypoint2_di__functions.c.o[0m
+[3.037s] [  5%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/skeleton3_d__functions.c.o[0m
+[3.038s] [  5%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/keypoint2_df__functions.c.o[0m
+[3.039s] [  5%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/bounding_box2_di__functions.c.o[0m
+[3.040s] [  5%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/bounding_box3_d__functions.c.o[0m
+[3.040s] [  5%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/plane_stamped__functions.c.o[0m
+[3.040s] [  6%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/pos_track_status__functions.c.o[0m
+[3.040s] [  6%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/mag_heading_status__functions.c.o[0m
+[3.041s] [  7%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/depth_info_stamped__functions.c.o[0m
+[3.042s] [  7%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/gnss_fusion_status__functions.c.o[0m
+[3.043s] [  8%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/srv/detail/set_pose__functions.c.o[0m
+[3.044s] [  8%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/health_status_stamped__functions.c.o[0m
+[3.045s] [  9%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/svo_status__functions.c.o[0m
+[3.047s] [ 10%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/srv/detail/set_roi__functions.c.o[0m
+[3.049s] [ 11%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/msg/detail/heartbeat__functions.c.o[0m
+[3.050s] [ 11%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/srv/detail/start_svo_rec__functions.c.o[0m
+[3.089s] [ 11%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_c.dir/rosidl_generator_c/zed_msgs/srv/detail/set_svo_frame__functions.c.o[0m
+[3.136s] [ 12%] [32m[1mLinking C shared library libzed_msgs__rosidl_generator_c.so[0m
+[3.174s] [ 12%] Built target zed_msgs__cpp
+[3.181s] [ 12%] Built target zed_msgs__rosidl_generator_c
+[3.182s] [ 13%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.183s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.184s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.190s] [ 16%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.192s] [ 17%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.193s] [ 18%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.414s] [ 19%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/objects_stamped__type_support.cpp.o[0m
+[4.414s] [ 19%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/object__type_support.cpp.o[0m
+[4.416s] [ 20%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/keypoint2_df__type_support.cpp.o[0m
+[4.416s] [ 20%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/keypoint2_di__type_support.cpp.o[0m
+[4.416s] [ 20%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/keypoint3_d__type_support.cpp.o[0m
+[4.417s] [ 22%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/bounding_box2_di__type_support.cpp.o[0m
+[4.417s] [ 22%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/skeleton2_d__type_support.cpp.o[0m
+[4.417s] [ 22%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/bounding_box3_d__type_support.cpp.o[0m
+[4.418s] [ 22%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/heartbeat__type_support.cpp.o[0m
+[4.418s] [ 22%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/bounding_box2_df__type_support.cpp.o[0m
+[4.419s] [ 22%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/svo_status__type_support.cpp.o[0m
+[4.419s] [ 22%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/pos_track_status__type_support.cpp.o[0m
+[4.419s] [ 22%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/depth_info_stamped__type_support.cpp.o[0m
+[4.422s] [ 24%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/skeleton3_d__type_support.cpp.o[0m
+[4.422s] [ 24%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/plane_stamped__type_support.cpp.o[0m
+[4.422s] [ 25%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/mag_heading_status__type_support.cpp.o[0m
+[4.424s] [ 26%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/gnss_fusion_status__type_support.cpp.o[0m
+[4.441s] [ 26%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/object__type_support.c.o[0m
+[4.504s] [ 27%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/objects_stamped__type_support.c.o[0m
+[4.590s] [ 27%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/keypoint2_di__type_support.c.o[0m
+[4.675s] [ 28%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/keypoint2_df__type_support.c.o[0m
+[4.745s] [ 28%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/keypoint3_d__type_support.c.o[0m
+[4.806s] [ 29%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/bounding_box2_di__type_support.c.o[0m
+[4.809s] [ 30%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/msg/detail/dds_fastrtps/health_status_stamped__type_support.cpp.o[0m
+[4.816s] [ 30%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/bounding_box2_df__type_support.c.o[0m
+[4.818s] [ 31%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/bounding_box3_d__type_support.c.o[0m
+[4.837s] [ 31%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/srv/detail/dds_fastrtps/set_pose__type_support.cpp.o[0m
+[4.857s] [ 32%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/skeleton3_d__type_support.c.o[0m
+[4.859s] [ 32%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/skeleton2_d__type_support.c.o[0m
+[4.876s] [ 33%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/srv/detail/dds_fastrtps/start_svo_rec__type_support.cpp.o[0m
+[4.876s] [ 33%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/srv/detail/dds_fastrtps/set_roi__type_support.cpp.o[0m
+[4.878s] [ 33%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/depth_info_stamped__type_support.c.o[0m
+[4.899s] [ 34%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/plane_stamped__type_support.c.o[0m
+[4.908s] [ 35%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/zed_msgs/srv/detail/dds_fastrtps/set_svo_frame__type_support.cpp.o[0m
+[4.908s] [ 35%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/pos_track_status__type_support.c.o[0m
+[4.927s] [ 36%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/gnss_fusion_status__type_support.c.o[0m
+[4.936s] [ 36%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/heartbeat__type_support.c.o[0m
+[4.975s] [ 37%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/svo_status__type_support.c.o[0m
+[4.975s] [ 37%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/mag_heading_status__type_support.c.o[0m
+[4.981s] [ 37%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/srv/detail/set_pose__type_support.c.o[0m
+[4.981s] [ 38%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/msg/detail/health_status_stamped__type_support.c.o[0m
+[4.993s] [ 39%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/srv/detail/start_svo_rec__type_support.c.o[0m
+[5.003s] [ 39%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/object__type_support.cpp.o[0m
+[5.007s] [ 40%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/objects_stamped__type_support.cpp.o[0m
+[5.008s] [ 40%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/srv/detail/set_roi__type_support.c.o[0m
+[5.009s] [ 40%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/object__type_support.cpp.o[0m
+[5.018s] [ 41%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/objects_stamped__type_support.cpp.o[0m
+[5.023s] [ 42%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/zed_msgs/srv/detail/set_svo_frame__type_support.c.o[0m
+[5.028s] [ 42%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/keypoint2_di__type_support.cpp.o[0m
+[5.029s] [ 42%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/keypoint2_di__type_support.cpp.o[0m
+[5.034s] [ 43%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/keypoint2_df__type_support.cpp.o[0m
+[5.036s] [ 44%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/keypoint2_df__type_support.cpp.o[0m
+[5.040s] [ 44%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/keypoint3_d__type_support.cpp.o[0m
+[5.042s] [ 44%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/keypoint3_d__type_support.cpp.o[0m
+[5.044s] [ 45%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/bounding_box2_di__type_support.cpp.o[0m
+[5.047s] [ 46%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/bounding_box2_di__type_support.cpp.o[0m
+[5.052s] [ 47%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/bounding_box3_d__type_support.cpp.o[0m
+[5.052s] [ 47%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/bounding_box2_df__type_support.cpp.o[0m
+[5.061s] [ 47%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/skeleton2_d__type_support.cpp.o[0m
+[5.066s] [ 47%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/bounding_box2_df__type_support.cpp.o[0m
+[5.071s] [ 48%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/bounding_box3_d__type_support.cpp.o[0m
+[5.075s] [ 48%] [32m[1mLinking C shared library libzed_msgs__rosidl_typesupport_introspection_c.so[0m
+[5.081s] [ 49%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/skeleton3_d__type_support.cpp.o[0m
+[5.087s] [ 49%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/skeleton2_d__type_support.cpp.o[0m
+[5.090s] [ 49%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/depth_info_stamped__type_support.cpp.o[0m
+[5.102s] [ 50%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/skeleton3_d__type_support.cpp.o[0m
+[5.107s] [ 51%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/plane_stamped__type_support.cpp.o[0m
+[5.115s] [ 51%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/depth_info_stamped__type_support.cpp.o[0m
+[5.123s] [ 51%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/pos_track_status__type_support.cpp.o[0m
+[5.135s] [ 51%] Built target zed_msgs__rosidl_typesupport_introspection_c
+[5.147s] [ 52%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/gnss_fusion_status__type_support.cpp.o[0m
+[5.157s] [ 52%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/object__type_support.cpp.o[0m
+[5.165s] [ 52%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/heartbeat__type_support.cpp.o[0m
+[5.187s] [ 53%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/mag_heading_status__type_support.cpp.o[0m
+[5.190s] [ 54%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/plane_stamped__type_support.cpp.o[0m
+[5.213s] [ 54%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/svo_status__type_support.cpp.o[0m
+[5.214s] [ 55%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/msg/health_status_stamped__type_support.cpp.o[0m
+[5.247s] [ 55%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/srv/set_pose__type_support.cpp.o[0m
+[5.266s] [ 55%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/object__type_support_c.cpp.o[0m
+[5.272s] [ 56%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/objects_stamped__type_support.cpp.o[0m
+[5.274s] [ 57%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/srv/start_svo_rec__type_support.cpp.o[0m
+[5.277s] [ 57%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/keypoint2_di__type_support.cpp.o[0m
+[5.313s] [ 58%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/keypoint2_df__type_support.cpp.o[0m
+[5.338s] [ 59%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/objects_stamped__type_support_c.cpp.o[0m
+[5.342s] [ 59%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/srv/set_roi__type_support.cpp.o[0m
+[5.355s] [ 60%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/zed_msgs/srv/set_svo_frame__type_support.cpp.o[0m
+[5.367s] [ 60%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/pos_track_status__type_support.cpp.o[0m
+[5.383s] [ 60%] [32m[1mLinking CXX shared library libzed_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.389s] [ 61%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/gnss_fusion_status__type_support.cpp.o[0m
+[5.400s] [ 61%] [32m[1mLinking CXX shared library libzed_msgs__rosidl_typesupport_c.so[0m
+[5.409s] [ 61%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/keypoint3_d__type_support.cpp.o[0m
+[5.429s] [ 61%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/keypoint2_di__type_support_c.cpp.o[0m
+[5.447s] [ 62%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/bounding_box2_di__type_support.cpp.o[0m
+[5.459s] [ 62%] Built target zed_msgs__rosidl_typesupport_c
+[5.472s] [ 62%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/heartbeat__type_support.cpp.o[0m
+[5.475s] [ 63%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/keypoint2_df__type_support_c.cpp.o[0m
+[5.511s] [ 63%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/bounding_box2_df__type_support.cpp.o[0m
+[5.511s] [ 63%] Built target zed_msgs__rosidl_typesupport_fastrtps_cpp
+[5.523s] [ 64%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/mag_heading_status__type_support.cpp.o[0m
+[5.533s] [ 65%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/bounding_box3_d__type_support.cpp.o[0m
+[5.556s] [ 65%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/keypoint3_d__type_support_c.cpp.o[0m
+[5.587s] [ 65%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/skeleton2_d__type_support.cpp.o[0m
+[5.604s] [ 65%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/bounding_box2_df__type_support_c.cpp.o[0m
+[5.604s] [ 66%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/bounding_box2_di__type_support_c.cpp.o[0m
+[5.653s] [ 67%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/skeleton3_d__type_support.cpp.o[0m
+[5.669s] [ 67%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/svo_status__type_support.cpp.o[0m
+[5.698s] [ 68%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/bounding_box3_d__type_support_c.cpp.o[0m
+[5.748s] [ 68%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/depth_info_stamped__type_support.cpp.o[0m
+[5.758s] [ 68%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/skeleton2_d__type_support_c.cpp.o[0m
+[5.758s] [ 69%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/msg/detail/health_status_stamped__type_support.cpp.o[0m
+[5.768s] [ 70%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/plane_stamped__type_support.cpp.o[0m
+[5.772s] [ 70%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/pos_track_status__type_support.cpp.o[0m
+[5.783s] [ 71%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/skeleton3_d__type_support_c.cpp.o[0m
+[5.803s] [ 72%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/gnss_fusion_status__type_support.cpp.o[0m
+[5.807s] [ 72%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/srv/detail/set_pose__type_support.cpp.o[0m
+[5.850s] [ 73%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/srv/detail/start_svo_rec__type_support.cpp.o[0m
+[5.856s] [ 73%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/depth_info_stamped__type_support_c.cpp.o[0m
+[5.883s] [ 74%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/plane_stamped__type_support_c.cpp.o[0m
+[5.916s] [ 74%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/pos_track_status__type_support_c.cpp.o[0m
+[5.930s] [ 74%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/srv/detail/set_roi__type_support.cpp.o[0m
+[5.949s] [ 75%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/gnss_fusion_status__type_support_c.cpp.o[0m
+[5.976s] [ 75%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/heartbeat__type_support.cpp.o[0m
+[5.985s] [ 76%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/mag_heading_status__type_support.cpp.o[0m
+[5.997s] [ 76%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/heartbeat__type_support_c.cpp.o[0m
+[6.009s] [ 77%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/mag_heading_status__type_support_c.cpp.o[0m
+[6.020s] [ 78%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/zed_msgs/srv/detail/set_svo_frame__type_support.cpp.o[0m
+[6.052s] [ 78%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/svo_status__type_support.cpp.o[0m
+[6.078s] [ 78%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/srv/set_pose__type_support.cpp.o[0m
+[6.078s] [ 79%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/msg/health_status_stamped__type_support.cpp.o[0m
+[6.112s] [ 79%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/svo_status__type_support_c.cpp.o[0m
+[6.131s] [ 80%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/msg/detail/health_status_stamped__type_support_c.cpp.o[0m
+[6.133s] [ 80%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/srv/detail/set_pose__type_support_c.cpp.o[0m
+[6.156s] [ 81%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/srv/start_svo_rec__type_support.cpp.o[0m
+[6.206s] [ 81%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/srv/set_roi__type_support.cpp.o[0m
+[6.207s] [ 82%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/srv/detail/start_svo_rec__type_support_c.cpp.o[0m
+[6.256s] [ 82%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/srv/detail/set_roi__type_support_c.cpp.o[0m
+[6.276s] [ 83%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/zed_msgs/srv/detail/set_svo_frame__type_support_c.cpp.o[0m
+[6.288s] [ 84%] [32mBuilding CXX object CMakeFiles/zed_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/zed_msgs/srv/set_svo_frame__type_support.cpp.o[0m
+[6.490s] [ 84%] [32m[1mLinking CXX shared library libzed_msgs__rosidl_typesupport_cpp.so[0m
+[6.490s] [ 85%] [32m[1mLinking CXX shared library libzed_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[6.534s] [ 85%] Built target zed_msgs__rosidl_typesupport_cpp
+[6.565s] [ 85%] Built target zed_msgs__rosidl_typesupport_introspection_cpp
+[6.656s] [ 85%] [32m[1mLinking CXX shared library libzed_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[6.714s] [ 85%] Built target zed_msgs__rosidl_typesupport_fastrtps_c
+[6.731s] [ 85%] Built target zed_msgs
+[6.745s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.447s] [ 86%] Built target zed_msgs__py
+[9.465s] [ 86%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_bounding_box2_df_s.c.o[0m
+[9.466s] [ 87%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_bounding_box2_di_s.c.o[0m
+[9.466s] [ 88%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_bounding_box3_d_s.c.o[0m
+[9.466s] [ 88%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_keypoint3_d_s.c.o[0m
+[9.467s] [ 89%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_keypoint2_df_s.c.o[0m
+[9.467s] [ 89%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_object_s.c.o[0m
+[9.467s] [ 91%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_skeleton3_d_s.c.o[0m
+[9.468s] [ 91%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_objects_stamped_s.c.o[0m
+[9.468s] [ 91%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_keypoint2_di_s.c.o[0m
+[9.468s] [ 91%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_skeleton2_d_s.c.o[0m
+[9.469s] [ 92%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_plane_stamped_s.c.o[0m
+[9.469s] [ 92%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_pos_track_status_s.c.o[0m
+[9.470s] [ 93%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/srv/_start_svo_rec_s.c.o[0m
+[9.470s] [ 93%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_svo_status_s.c.o[0m
+[9.472s] [ 93%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_depth_info_stamped_s.c.o[0m
+[9.472s] [ 94%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_gnss_fusion_status_s.c.o[0m
+[9.472s] [ 94%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/srv/_set_pose_s.c.o[0m
+[9.472s] [ 95%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_mag_heading_status_s.c.o[0m
+[9.472s] [ 96%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_health_status_stamped_s.c.o[0m
+[9.476s] [ 96%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/srv/_set_roi_s.c.o[0m
+[9.479s] [ 96%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/msg/_heartbeat_s.c.o[0m
+[9.484s] [ 97%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_generator_py.dir/rosidl_generator_py/zed_msgs/srv/_set_svo_frame_s.c.o[0m
+[9.615s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/zed_msgs/libzed_msgs__rosidl_generator_py.so[0m
+[9.654s] [ 97%] Built target zed_msgs__rosidl_generator_py
+[9.676s] [ 98%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/zed_msgs/_zed_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.677s] [100%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/zed_msgs/_zed_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.677s] [100%] [32mBuilding C object CMakeFiles/zed_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/zed_msgs/_zed_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[9.780s] [100%] [32m[1mLinking C shared library rosidl_generator_py/zed_msgs/zed_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.788s] [100%] [32m[1mLinking C shared library rosidl_generator_py/zed_msgs/zed_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.799s] [100%] [32m[1mLinking C shared library rosidl_generator_py/zed_msgs/zed_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.816s] [100%] Built target zed_msgs__rosidl_typesupport_c__pyext
+[9.820s] [100%] Built target zed_msgs__rosidl_typesupport_fastrtps_c__pyext
+[9.833s] [100%] Built target zed_msgs__rosidl_typesupport_introspection_c__pyext
+[9.841s] Invoked command in '/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/exchange/unimore_ws/install/check_obstacles_pkg:/home/user/exchange/ros_proxy_ws/install/ros_proxy:/opt/pal/alum:/opt/ros/humble /usr/bin/cmake --build /home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_msgs -- -j22 -l22
+[9.850s] Invoking command in '/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/exchange/unimore_ws/install/check_obstacles_pkg:/home/user/exchange/ros_proxy_ws/install/ros_proxy:/opt/pal/alum:/opt/ros/humble /usr/bin/cmake --install /home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_msgs
+[9.854s] -- Install configuration: ""
+[9.855s] -- Execute custom install script
+[9.855s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/ament_index/resource_index/rosidl_interfaces/zed_msgs
+[9.860s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box2_df.h
+[9.866s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box2_di.h
+[9.872s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box3_d.h
+[9.879s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/depth_info_stamped.h
+[9.887s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__functions.h
+[9.892s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__struct.h
+[9.899s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__type_support.h
+[9.906s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__functions.h
+[9.911s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__struct.h
+[9.918s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__type_support.h
+[9.923s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__functions.h
+[9.929s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__struct.h
+[9.934s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__type_support.h
+[9.940s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__functions.h
+[9.947s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__struct.h
+[9.952s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__type_support.h
+[9.958s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__functions.h
+[9.965s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__struct.h
+[9.969s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__type_support.h
+[9.974s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__functions.h
+[9.980s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__struct.h
+[9.986s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__type_support.h
+[9.992s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__functions.h
+[9.998s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__struct.h
+[10.005s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__type_support.h
+[10.011s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__functions.h
+[10.016s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__struct.h
+[10.021s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__type_support.h
+[10.027s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__functions.h
+[10.033s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__struct.h
+[10.039s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__type_support.h
+[10.044s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__functions.h
+[10.051s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__struct.h
+[10.056s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__type_support.h
+[10.061s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__functions.h
+[10.067s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__struct.h
+[10.073s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__type_support.h
+[10.078s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__functions.h
+[10.082s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__struct.h
+[10.088s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__type_support.h
+[10.094s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__functions.h
+[10.098s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__struct.h
+[10.103s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__type_support.h
+[10.109s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__functions.h
+[10.114s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__struct.h
+[10.119s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__type_support.h
+[10.125s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__functions.h
+[10.131s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__struct.h
+[10.137s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__type_support.h
+[10.142s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__functions.h
+[10.149s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__struct.h
+[10.154s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__type_support.h
+[10.159s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__functions.h
+[10.163s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__struct.h
+[10.170s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__type_support.h
+[10.175s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__functions.h
+[10.180s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__struct.h
+[10.186s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__type_support.h
+[10.193s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/gnss_fusion_status.h
+[10.199s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/health_status_stamped.h
+[10.205s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/heartbeat.h
+[10.210s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint2_df.h
+[10.215s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint2_di.h
+[10.220s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint3_d.h
+[10.225s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/mag_heading_status.h
+[10.232s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/object.h
+[10.237s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/objects_stamped.h
+[10.242s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/plane_stamped.h
+[10.249s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/pos_track_status.h
+[10.255s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/rosidl_generator_c__visibility_control.h
+[10.261s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/skeleton2_d.h
+[10.267s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/skeleton3_d.h
+[10.273s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/svo_status.h
+[10.278s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__functions.h
+[10.283s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__struct.h
+[10.289s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__type_support.h
+[10.296s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__functions.h
+[10.302s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__struct.h
+[10.308s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__type_support.h
+[10.313s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__functions.h
+[10.318s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__struct.h
+[10.323s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__type_support.h
+[10.329s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__functions.h
+[10.336s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__struct.h
+[10.342s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__type_support.h
+[10.348s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/set_pose.h
+[10.353s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/set_roi.h
+[10.359s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/set_svo_frame.h
+[10.364s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/start_svo_rec.h
+[10.370s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/environment/library_path.sh
+[10.377s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/environment/library_path.dsv
+[10.383s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__rosidl_typesupport_fastrtps_c.h
+[10.389s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__rosidl_typesupport_fastrtps_c.h
+[10.394s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_c.h
+[10.399s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__rosidl_typesupport_fastrtps_c.h
+[10.404s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__rosidl_typesupport_fastrtps_c.h
+[10.410s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__rosidl_typesupport_fastrtps_c.h
+[10.416s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__rosidl_typesupport_fastrtps_c.h
+[10.421s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__rosidl_typesupport_fastrtps_c.h
+[10.426s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__rosidl_typesupport_fastrtps_c.h
+[10.432s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__rosidl_typesupport_fastrtps_c.h
+[10.436s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__rosidl_typesupport_fastrtps_c.h
+[10.443s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__rosidl_typesupport_fastrtps_c.h
+[10.448s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__rosidl_typesupport_fastrtps_c.h
+[10.454s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__rosidl_typesupport_fastrtps_c.h
+[10.459s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__rosidl_typesupport_fastrtps_c.h
+[10.465s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__rosidl_typesupport_fastrtps_c.h
+[10.472s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__rosidl_typesupport_fastrtps_c.h
+[10.477s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__rosidl_typesupport_fastrtps_c.h
+[10.483s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.487s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__rosidl_typesupport_fastrtps_c.h
+[10.494s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__rosidl_typesupport_fastrtps_c.h
+[10.500s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__rosidl_typesupport_fastrtps_c.h
+[10.506s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__rosidl_typesupport_fastrtps_c.h
+[10.511s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box2_df.hpp
+[10.516s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box2_di.hpp
+[10.520s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/bounding_box3_d.hpp
+[10.526s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/depth_info_stamped.hpp
+[10.533s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__builder.hpp
+[10.538s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__struct.hpp
+[10.543s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__traits.hpp
+[10.549s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__type_support.hpp
+[10.555s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__builder.hpp
+[10.560s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__struct.hpp
+[10.566s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__traits.hpp
+[10.571s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__type_support.hpp
+[10.576s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__builder.hpp
+[10.581s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__struct.hpp
+[10.587s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__traits.hpp
+[10.592s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__type_support.hpp
+[10.597s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__builder.hpp
+[10.602s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__struct.hpp
+[10.608s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__traits.hpp
+[10.615s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__type_support.hpp
+[10.621s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__builder.hpp
+[10.626s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__struct.hpp
+[10.630s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__traits.hpp
+[10.636s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__type_support.hpp
+[10.642s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__builder.hpp
+[10.649s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__struct.hpp
+[10.655s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__traits.hpp
+[10.661s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__type_support.hpp
+[10.666s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__builder.hpp
+[10.673s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__struct.hpp
+[10.678s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__traits.hpp
+[10.683s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__type_support.hpp
+[10.689s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__builder.hpp
+[10.695s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__struct.hpp
+[10.701s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__traits.hpp
+[10.706s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__type_support.hpp
+[10.710s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__builder.hpp
+[10.716s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__struct.hpp
+[10.720s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__traits.hpp
+[10.726s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__type_support.hpp
+[10.730s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__builder.hpp
+[10.735s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__struct.hpp
+[10.740s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__traits.hpp
+[10.746s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__type_support.hpp
+[10.750s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__builder.hpp
+[10.756s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__struct.hpp
+[10.760s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__traits.hpp
+[10.765s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__type_support.hpp
+[10.770s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__builder.hpp
+[10.776s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__struct.hpp
+[10.780s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__traits.hpp
+[10.785s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__type_support.hpp
+[10.791s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__builder.hpp
+[10.797s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__struct.hpp
+[10.803s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__traits.hpp
+[10.808s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__type_support.hpp
+[10.815s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__builder.hpp
+[10.820s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__struct.hpp
+[10.825s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__traits.hpp
+[10.830s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__type_support.hpp
+[10.836s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__builder.hpp
+[10.841s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__struct.hpp
+[10.846s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__traits.hpp
+[10.850s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__type_support.hpp
+[10.856s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__builder.hpp
+[10.861s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__struct.hpp
+[10.866s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__traits.hpp
+[10.870s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__type_support.hpp
+[10.877s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__builder.hpp
+[10.881s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__struct.hpp
+[10.886s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__traits.hpp
+[10.890s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__type_support.hpp
+[10.896s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__builder.hpp
+[10.901s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__struct.hpp
+[10.906s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__traits.hpp
+[10.910s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__type_support.hpp
+[10.915s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/gnss_fusion_status.hpp
+[10.920s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/health_status_stamped.hpp
+[10.924s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/heartbeat.hpp
+[10.930s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint2_df.hpp
+[10.937s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint2_di.hpp
+[10.942s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/keypoint3_d.hpp
+[10.946s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/mag_heading_status.hpp
+[10.951s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/object.hpp
+[10.957s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/objects_stamped.hpp
+[10.962s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/plane_stamped.hpp
+[10.967s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/pos_track_status.hpp
+[10.972s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[10.977s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/skeleton2_d.hpp
+[10.982s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/skeleton3_d.hpp
+[10.989s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/svo_status.hpp
+[10.995s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__builder.hpp
+[11.001s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__struct.hpp
+[11.007s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__traits.hpp
+[11.011s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__type_support.hpp
+[11.017s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__builder.hpp
+[11.024s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__struct.hpp
+[11.029s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__traits.hpp
+[11.034s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__type_support.hpp
+[11.039s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__builder.hpp
+[11.044s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__struct.hpp
+[11.049s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__traits.hpp
+[11.055s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__type_support.hpp
+[11.060s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__builder.hpp
+[11.066s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__struct.hpp
+[11.073s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__traits.hpp
+[11.078s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__type_support.hpp
+[11.083s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/set_pose.hpp
+[11.088s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/set_roi.hpp
+[11.095s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/set_svo_frame.hpp
+[11.099s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/start_svo_rec.hpp
+[11.106s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__rosidl_typesupport_fastrtps_cpp.hpp
+[11.112s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__rosidl_typesupport_fastrtps_cpp.hpp
+[11.118s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[11.124s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[11.130s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__rosidl_typesupport_fastrtps_cpp.hpp
+[11.136s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[11.141s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__rosidl_typesupport_fastrtps_cpp.hpp
+[11.145s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__rosidl_typesupport_fastrtps_cpp.hpp
+[11.150s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__rosidl_typesupport_fastrtps_cpp.hpp
+[11.156s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[11.161s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__rosidl_typesupport_fastrtps_cpp.hpp
+[11.167s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp
+[11.173s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[11.178s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[11.183s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__rosidl_typesupport_fastrtps_cpp.hpp
+[11.188s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[11.195s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[11.200s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__rosidl_typesupport_fastrtps_cpp.hpp
+[11.206s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.212s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[11.218s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__rosidl_typesupport_fastrtps_cpp.hpp
+[11.224s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__rosidl_typesupport_fastrtps_cpp.hpp
+[11.229s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__rosidl_typesupport_fastrtps_cpp.hpp
+[11.235s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__rosidl_typesupport_introspection_c.h
+[11.240s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__rosidl_typesupport_introspection_c.h
+[11.246s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_c.h
+[11.250s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__rosidl_typesupport_introspection_c.h
+[11.256s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__rosidl_typesupport_introspection_c.h
+[11.263s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__rosidl_typesupport_introspection_c.h
+[11.268s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__rosidl_typesupport_introspection_c.h
+[11.275s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__rosidl_typesupport_introspection_c.h
+[11.279s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__rosidl_typesupport_introspection_c.h
+[11.284s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__rosidl_typesupport_introspection_c.h
+[11.289s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__rosidl_typesupport_introspection_c.h
+[11.295s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__rosidl_typesupport_introspection_c.h
+[11.299s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__rosidl_typesupport_introspection_c.h
+[11.305s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__rosidl_typesupport_introspection_c.h
+[11.310s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__rosidl_typesupport_introspection_c.h
+[11.316s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__rosidl_typesupport_introspection_c.h
+[11.322s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__rosidl_typesupport_introspection_c.h
+[11.328s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__rosidl_typesupport_introspection_c.h
+[11.334s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.339s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__rosidl_typesupport_introspection_c.h
+[11.345s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__rosidl_typesupport_introspection_c.h
+[11.350s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__rosidl_typesupport_introspection_c.h
+[11.355s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__rosidl_typesupport_introspection_c.h
+[11.360s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_df__rosidl_typesupport_introspection_cpp.hpp
+[11.367s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box2_di__rosidl_typesupport_introspection_cpp.hpp
+[11.371s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_cpp.hpp
+[11.377s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/depth_info_stamped__rosidl_typesupport_introspection_cpp.hpp
+[11.384s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/gnss_fusion_status__rosidl_typesupport_introspection_cpp.hpp
+[11.389s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/health_status_stamped__rosidl_typesupport_introspection_cpp.hpp
+[11.396s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/heartbeat__rosidl_typesupport_introspection_cpp.hpp
+[11.401s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_df__rosidl_typesupport_introspection_cpp.hpp
+[11.407s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint2_di__rosidl_typesupport_introspection_cpp.hpp
+[11.412s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/keypoint3_d__rosidl_typesupport_introspection_cpp.hpp
+[11.419s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/mag_heading_status__rosidl_typesupport_introspection_cpp.hpp
+[11.425s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp
+[11.429s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/objects_stamped__rosidl_typesupport_introspection_cpp.hpp
+[11.436s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/plane_stamped__rosidl_typesupport_introspection_cpp.hpp
+[11.443s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/pos_track_status__rosidl_typesupport_introspection_cpp.hpp
+[11.448s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton2_d__rosidl_typesupport_introspection_cpp.hpp
+[11.453s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/skeleton3_d__rosidl_typesupport_introspection_cpp.hpp
+[11.458s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/msg/detail/svo_status__rosidl_typesupport_introspection_cpp.hpp
+[11.465s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_pose__rosidl_typesupport_introspection_cpp.hpp
+[11.470s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_roi__rosidl_typesupport_introspection_cpp.hpp
+[11.475s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/set_svo_frame__rosidl_typesupport_introspection_cpp.hpp
+[11.479s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/include/zed_msgs/zed_msgs/srv/detail/start_svo_rec__rosidl_typesupport_introspection_cpp.hpp
+[11.484s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/environment/pythonpath.sh
+[11.489s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/environment/pythonpath.dsv
+[11.495s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs-5.0.0-py3.10.egg-info/PKG-INFO
+[11.500s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs-5.0.0-py3.10.egg-info/SOURCES.txt
+[11.506s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs-5.0.0-py3.10.egg-info/dependency_links.txt
+[11.511s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs-5.0.0-py3.10.egg-info/top_level.txt
+[11.518s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/__init__.py
+[11.524s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/_zed_msgs_s.ep.rosidl_typesupport_c.c
+[11.530s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/_zed_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.537s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/_zed_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[11.544s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/libzed_msgs__rosidl_generator_py.so
+[11.549s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/__init__.py
+[11.554s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box2_df.py
+[11.559s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box2_df_s.c
+[11.564s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box2_di.py
+[11.569s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box2_di_s.c
+[11.574s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box3_d.py
+[11.580s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box3_d_s.c
+[11.586s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_depth_info_stamped.py
+[11.591s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_depth_info_stamped_s.c
+[11.597s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_gnss_fusion_status.py
+[11.603s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_gnss_fusion_status_s.c
+[11.609s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_health_status_stamped.py
+[11.614s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_health_status_stamped_s.c
+[11.619s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_heartbeat.py
+[11.624s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_heartbeat_s.c
+[11.630s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint2_df.py
+[11.636s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint2_df_s.c
+[11.640s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint2_di.py
+[11.645s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint2_di_s.c
+[11.651s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint3_d.py
+[11.658s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint3_d_s.c
+[11.663s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_mag_heading_status.py
+[11.669s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_mag_heading_status_s.c
+[11.674s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_object.py
+[11.678s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_object_s.c
+[11.683s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_objects_stamped.py
+[11.690s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_objects_stamped_s.c
+[11.696s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_plane_stamped.py
+[11.700s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_plane_stamped_s.c
+[11.707s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_pos_track_status.py
+[11.712s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_pos_track_status_s.c
+[11.717s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_skeleton2_d.py
+[11.724s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_skeleton2_d_s.c
+[11.730s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_skeleton3_d.py
+[11.736s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_skeleton3_d_s.c
+[11.741s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_svo_status.py
+[11.748s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_svo_status_s.c
+[11.753s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/__init__.py
+[11.758s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_pose.py
+[11.764s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_pose_s.c
+[11.771s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_roi.py
+[11.777s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_roi_s.c
+[11.782s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_svo_frame.py
+[11.789s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_svo_frame_s.c
+[11.793s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_start_svo_rec.py
+[11.799s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_start_svo_rec_s.c
+[11.806s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.811s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.818s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.824s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.824s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.824s] -- Up-to-date symlink: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/zed_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.824s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/Object.idl
+[11.830s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/ObjectsStamped.idl
+[11.835s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint2Di.idl
+[11.840s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint2Df.idl
+[11.846s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint3D.idl
+[11.851s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox2Di.idl
+[11.858s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox2Df.idl
+[11.863s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox3D.idl
+[11.869s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/Skeleton2D.idl
+[11.874s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/Skeleton3D.idl
+[11.880s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/DepthInfoStamped.idl
+[11.884s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/PlaneStamped.idl
+[11.891s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/PosTrackStatus.idl
+[11.896s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/GnssFusionStatus.idl
+[11.902s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/Heartbeat.idl
+[11.908s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/MagHeadingStatus.idl
+[11.914s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/SvoStatus.idl
+[11.920s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/HealthStatusStamped.idl
+[11.925s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/srv/SetPose.idl
+[11.931s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/srv/StartSvoRec.idl
+[11.936s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/srv/SetROI.idl
+[11.942s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/srv/SetSvoFrame.idl
+[11.948s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/Object.msg
+[11.954s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/ObjectsStamped.msg
+[11.960s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint2Di.msg
+[11.965s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint2Df.msg
+[11.971s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/Keypoint3D.msg
+[11.977s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox2Di.msg
+[11.983s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox2Df.msg
+[11.989s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/BoundingBox3D.msg
+[11.994s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/Skeleton2D.msg
+[11.999s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/Skeleton3D.msg
+[12.004s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/DepthInfoStamped.msg
+[12.010s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/PlaneStamped.msg
+[12.015s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/PosTrackStatus.msg
+[12.020s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/GnssFusionStatus.msg
+[12.024s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/Heartbeat.msg
+[12.031s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/MagHeadingStatus.msg
+[12.037s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/SvoStatus.msg
+[12.042s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/msg/HealthStatusStamped.msg
+[12.047s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/srv/SetPose.srv
+[12.052s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/srv/SetPose_Request.msg
+[12.059s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/srv/SetPose_Response.msg
+[12.065s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/srv/StartSvoRec.srv
+[12.071s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/srv/StartSvoRec_Request.msg
+[12.077s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/srv/StartSvoRec_Response.msg
+[12.082s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/srv/SetROI.srv
+[12.087s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/srv/SetROI_Request.msg
+[12.093s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/srv/SetROI_Response.msg
+[12.099s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/srv/SetSvoFrame.srv
+[12.104s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/srv/SetSvoFrame_Request.msg
+[12.111s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/srv/SetSvoFrame_Response.msg
+[12.117s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/meshes/virtual.stl
+[12.123s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/meshes/zed.stl
+[12.128s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/meshes/zed2.stl
+[12.133s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/meshes/zed2i.stl
+[12.139s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/meshes/zedm.stl
+[12.143s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/meshes/zedx.stl
+[12.150s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/meshes/zedxm.stl
+[12.154s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/meshes/zedxone4k.stl
+[12.159s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/meshes/zedxonegs.stl
+[12.166s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/ament_index/resource_index/package_run_dependencies/zed_msgs
+[12.172s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/ament_index/resource_index/parent_prefix_path/zed_msgs
+[12.178s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/environment/ament_prefix_path.sh
+[12.183s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/environment/ament_prefix_path.dsv
+[12.188s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/environment/path.sh
+[12.194s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/environment/path.dsv
+[12.199s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/local_setup.bash
+[12.204s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/local_setup.sh
+[12.208s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/local_setup.zsh
+[12.213s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/local_setup.dsv
+[12.220s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/package.dsv
+[12.225s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/ament_index/resource_index/packages/zed_msgs
+[12.229s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/rosidl_cmake-extras.cmake
+[12.234s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.241s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.246s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[12.252s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[12.258s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.264s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.270s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgsConfig.cmake
+[12.275s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgsConfig-version.cmake
+[12.282s] -- Symlinking: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/package.xml
+[12.287s] -- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/lib/libzed_msgs__rosidl_generator_c.so
+[12.287s] -- Set runtime path of "/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/lib/libzed_msgs__rosidl_generator_c.so" to ""
+[12.287s] -- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_fastrtps_c.so
+[12.287s] -- Set runtime path of "/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[12.287s] -- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_fastrtps_cpp.so
+[12.288s] -- Set runtime path of "/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.288s] -- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_introspection_c.so
+[12.288s] -- Set runtime path of "/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_introspection_c.so" to ""
+[12.288s] -- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_c.so
+[12.288s] -- Set runtime path of "/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_c.so" to ""
+[12.288s] -- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_introspection_cpp.so
+[12.288s] -- Set runtime path of "/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[12.288s] -- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_cpp.so
+[12.288s] -- Set runtime path of "/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/lib/libzed_msgs__rosidl_typesupport_cpp.so" to ""
+[12.331s] Listing '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs'...
+[12.331s] Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/__init__.py'...
+[12.331s] Listing '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg'...
+[12.331s] Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/__init__.py'...
+[12.331s] Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box2_df.py'...
+[12.331s] Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box2_di.py'...
+[12.331s] Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_bounding_box3_d.py'...
+[12.331s] Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_depth_info_stamped.py'...
+[12.331s] Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_gnss_fusion_status.py'...
+[12.331s] Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_health_status_stamped.py'...
+[12.332s] Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_heartbeat.py'...
+[12.332s] Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint2_df.py'...
+[12.332s] Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint2_di.py'...
+[12.332s] Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_keypoint3_d.py'...
+[12.332s] Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_mag_heading_status.py'...
+[12.332s] Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_object.py'...
+[12.332s] Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_objects_stamped.py'...
+[12.332s] Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_plane_stamped.py'...
+[12.332s] Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_pos_track_status.py'...
+[12.332s] Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_skeleton2_d.py'...
+[12.332s] Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_skeleton3_d.py'...
+[12.332s] Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/msg/_svo_status.py'...
+[12.332s] Listing '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv'...
+[12.332s] Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/__init__.py'...
+[12.332s] Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_pose.py'...
+[12.332s] Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_roi.py'...
+[12.332s] Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_set_svo_frame.py'...
+[12.332s] Compiling '/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/local/lib/python3.10/dist-packages/zed_msgs/srv/_start_svo_rec.py'...
+[12.335s] -- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/lib/libzed_msgs__rosidl_generator_py.so
+[12.335s] -- Set runtime path of "/home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/lib/libzed_msgs__rosidl_generator_py.so" to ""
+[12.335s] -- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_generator_cExport.cmake
+[12.335s] -- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_generator_cExport-noconfig.cmake
+[12.335s] -- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[12.335s] -- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.335s] -- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_generator_cppExport.cmake
+[12.335s] -- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.335s] -- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[12.336s] -- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_introspection_cExport.cmake
+[12.336s] -- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.336s] -- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_cExport.cmake
+[12.336s] -- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[12.336s] -- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[12.336s] -- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.336s] -- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_cppExport.cmake
+[12.336s] -- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/zed_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[12.336s] -- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_generator_pyExport.cmake
+[12.336s] -- Installing: /home/user/exchange/omnibase_ws/zed2_camera_ws/install/zed_msgs/share/zed_msgs/cmake/export_zed_msgs__rosidl_generator_pyExport-noconfig.cmake
+[12.337s] Invoked command in '/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/exchange/unimore_ws/install/check_obstacles_pkg:/home/user/exchange/ros_proxy_ws/install/ros_proxy:/opt/pal/alum:/opt/ros/humble /usr/bin/cmake --install /home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_msgs

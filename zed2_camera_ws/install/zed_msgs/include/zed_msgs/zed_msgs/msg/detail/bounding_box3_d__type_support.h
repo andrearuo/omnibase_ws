@@ -1,0 +1,1 @@
+/home/user/exchange/omnibase_ws/zed2_camera_ws/build/zed_msgs/rosidl_generator_c/zed_msgs/msg/detail/bounding_box3_d__type_support.h

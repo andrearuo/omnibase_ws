@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from tts_msgs/action/TTS.action
+// generated code does not contain a copyright notice
+
+
+module tts_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "The text to be uttered. It might contains additional markup for" "\n"
+      "eg multi-modal communication.")
+    struct TTS_Goal {
+      string input;
+
+      @verbatim (language="comment", text=
+        "(Optional) The desired locale, using following format:" "\n"
+        "the [ISO 639-1 language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)," "\n"
+        "followed by an underscore," "\n"
+        "followed by the [ISO 3166-1 alpha-2 region code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)." "\n"
+        "For example, 'en_GB' specifies British English." "\n"
+        "If not provided, the system should use the default locale.")
+      string locale;
+
+      @verbatim (language="comment", text=
+        "(Optional) The desired voice to use for the utterance." "\n"
+        "If no locale is provided, the system should attempt to match it with all the available ones, regardless of the locale." "\n"
+        "If not provided, the system should use the default voice for the selected locale.")
+      string voice;
+    };
+    @verbatim (language="comment", text=
+      "If not succeded, `error_msg` should contain an error message")
+    struct TTS_Result {
+      string error_msg;
+    };
+    @verbatim (language="comment", text=
+      "The current word being uttered.")
+    struct TTS_Feedback {
+      string word;
+    };
+  };
+};
